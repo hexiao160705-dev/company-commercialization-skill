@@ -1,0 +1,2769 @@
+{
+  "tasks": [
+    {
+      "key": "机会",
+      "title": "判断机会值不值得投入",
+      "dept": "产品部",
+      "inp": "业务想法、目标地区、可投入资源",
+      "out": "列出可服务客群、规模区间和最可能推翻判断的证据；决定验证、搁置或放弃。",
+      "nxt": [
+        "访谈",
+        "商模"
+      ],
+      "ids": [
+        "market-sizing",
+        "market-segments",
+        "beachhead-segment",
+        "pestle-analysis",
+        "porters-five-forces",
+        "swot-analysis",
+        "ansoff-matrix",
+        "competitor-analysis",
+        "product-vision"
+      ]
+    },
+    {
+      "key": "访谈",
+      "title": "验证客户是否真有这个问题",
+      "dept": "产品部",
+      "inp": "机会假设、已有客户或访谈记录",
+      "out": "区分客户原话与推断，记录反例和样本偏差；选出值得试验的痛点。",
+      "nxt": [
+        "实验"
+      ],
+      "ids": [
+        "user-research",
+        "interview-script",
+        "survey-design",
+        "live-polls",
+        "summarize-interview",
+        "user-personas",
+        "job-stories",
+        "customer-journey-map",
+        "research-synthesis",
+        "sentiment-analysis"
+      ]
+    },
+    {
+      "key": "实验",
+      "title": "用最小试验淘汰错误假设",
+      "dept": "产品部",
+      "inp": "痛点证据、资源上限和现有产品状态",
+      "out": "按影响和不确定性排列假设，预先写下通过线、停止线和观测窗口；用结果决定下一笔投入。",
+      "nxt": [
+        "规格",
+        "商模"
+      ],
+      "ids": [
+        "identify-assumptions-new",
+        "identify-assumptions-existing",
+        "prioritize-assumptions",
+        "brainstorm-experiments-new",
+        "brainstorm-experiments-existing",
+        "opportunity-solution-tree",
+        "pre-mortem",
+        "ab-test-analysis"
+      ]
+    },
+    {
+      "key": "商模",
+      "title": "算清卖给谁、卖什么价",
+      "dept": "产品部",
+      "inp": "客群、替代方案、交付成本与支付意愿证据",
+      "out": "对照保守场景核算单客收入、获客与履约成本；给出套餐、价格验证方法和盈亏条件。",
+      "nxt": [
+        "规格",
+        "渠道"
+      ],
+      "ids": [
+        "lean-canvas",
+        "business-model",
+        "value-proposition",
+        "monetization-strategy",
+        "pricing-strategy",
+        "ideal-customer-profile",
+        "channel-economics",
+        "saas-metrics-coach",
+        "product-strategy"
+      ]
+    },
+    {
+      "key": "规格",
+      "title": "把机会变成可交付的版本",
+      "dept": "产品部",
+      "inp": "试验结果、迭代需求、团队产能",
+      "out": "记录范围取舍，给每个关键场景列可观察验收条件；把需求和版本目标交给设计与开发。",
+      "nxt": [
+        "设计",
+        "开发"
+      ],
+      "ids": [
+        "brainstorm-ideas-new",
+        "brainstorm-ideas-existing",
+        "prioritize-features",
+        "prioritization-frameworks",
+        "create-prd",
+        "user-stories",
+        "outcome-roadmap",
+        "sprint-plan",
+        "brainstorm-okrs",
+        "stakeholder-map"
+      ]
+    },
+    {
+      "key": "设计",
+      "title": "验证用户能否完成核心操作",
+      "dept": "产品部",
+      "inp": "目标用户、核心任务与界面原型",
+      "out": "走查成功、错误和恢复路径；按影响排序可用性问题，把设计状态和文案交给开发。",
+      "nxt": [
+        "开发",
+        "验收"
+      ],
+      "ids": [
+        "design-critique",
+        "accessibility-review",
+        "design-system",
+        "ux-copy",
+        "design-handoff",
+        "customer-journey-map",
+        "copy-editing"
+      ]
+    },
+    {
+      "key": "开发",
+      "title": "验证技术方案并实现版本",
+      "dept": "产品部",
+      "inp": "需求验收条件、已有架构、性能和成本约束",
+      "out": "针对最大技术风险做小型验证，记录技术选择；按纵向功能切片交付代码与回归证据。",
+      "nxt": [
+        "验收"
+      ],
+      "ids": [
+        "tech-stack-evaluator",
+        "architecture",
+        "system-design",
+        "writing-plans",
+        "test-driven-development",
+        "executing-plans",
+        "using-git-worktrees",
+        "receiving-code-review",
+        "code-review",
+        "finishing-a-development-branch"
+      ]
+    },
+    {
+      "key": "验收",
+      "title": "判断版本是否达到上线条件",
+      "dept": "产品部",
+      "inp": "候选版本、变更清单与验收场景",
+      "out": "逐项核对需求、测试层和真实客户端结果，列缺陷及回退条件；形成上线决定。",
+      "nxt": [
+        "上市",
+        "维护"
+      ],
+      "ids": [
+        "testing-strategy",
+        "test-scenarios",
+        "dummy-dataset",
+        "requesting-code-review",
+        "verification-before-completion",
+        "deploy-checklist",
+        "release-notes",
+        "tech-debt"
+      ]
+    },
+    {
+      "key": "维护",
+      "title": "恢复服务并防止故障复发",
+      "dept": "产品部",
+      "inp": "告警、客户影响、最近变更",
+      "out": "建立影响时间线，验证恢复并复测根因；把长期修复项交回版本计划。",
+      "nxt": [
+        "规格",
+        "客服"
+      ],
+      "ids": [
+        "incident-response",
+        "systematic-debugging",
+        "runbook",
+        "change-request",
+        "documentation",
+        "retro",
+        "process-doc"
+      ]
+    },
+    {
+      "key": "商标",
+      "title": "准备产品命名与商标注册材料",
+      "dept": "产品部",
+      "inp": "候选文字图样、权利主体、使用场景、目标法域",
+      "out": "列商品服务范围、近似候选、官方检索日期及原始记录；整理申请包，交法务复核后由权利人提交，跟踪受理、补正和续展期限。",
+      "nxt": [
+        "法务",
+        "上市"
+      ],
+      "ids": [
+        "product-name",
+        "brand-guidelines",
+        "legal-risk-assessment",
+        "product-marketing"
+      ]
+    },
+    {
+      "key": "上市",
+      "title": "安排上市节奏和渠道试投",
+      "dept": "市场部",
+      "inp": "上线结论、目标客群、定价、预算",
+      "out": "写清渠道、受众、负责人、试投上限和归因窗口；按转化及履约能力决定放量。",
+      "nxt": [
+        "渠道",
+        "转化"
+      ],
+      "ids": [
+        "gtm-strategy",
+        "gtm-motions",
+        "positioning-ideas",
+        "value-prop-statements",
+        "launch",
+        "marketing-plan",
+        "co-marketing",
+        "events",
+        "product-marketing"
+      ]
+    },
+    {
+      "key": "渠道",
+      "title": "获得可归因的新客户",
+      "dept": "市场部",
+      "inp": "获客目标、渠道成本和受众假设",
+      "out": "选择匹配的渠道组合，逐项列投入、素材、归因、停止条件；比较有效线索成本。",
+      "nxt": [
+        "转化",
+        "销售"
+      ],
+      "ids": [
+        "ads",
+        "ad-creative",
+        "influencer-marketing",
+        "community-marketing",
+        "referrals",
+        "lead-magnets",
+        "free-tools",
+        "seo-audit",
+        "site-architecture",
+        "schema",
+        "programmatic-seo",
+        "aso",
+        "social",
+        "content-strategy"
+      ]
+    },
+    {
+      "key": "内容",
+      "title": "把产品证据写成对外材料",
+      "dept": "市场部",
+      "inp": "目标读者、产品证据、渠道规格",
+      "out": "为主张附证据，用具体案例改写空泛表达；检查语气、事实与行动入口，交给渠道负责人。",
+      "nxt": [
+        "渠道",
+        "公关"
+      ],
+      "ids": [
+        "copywriting",
+        "copy-editing",
+        "content-humanizer",
+        "brand-guidelines",
+        "emails",
+        "video",
+        "marketing-psychology",
+        "product-marketing"
+      ]
+    },
+    {
+      "key": "转化",
+      "title": "找到注册和首次付费的损失点",
+      "dept": "市场部",
+      "inp": "分步漏斗、事件口径、套餐与用户样本",
+      "out": "定位流失最大的可干预步骤，设计单一变更试验；同时观察付款、退款和激活质量。",
+      "nxt": [
+        "留存",
+        "反馈"
+      ],
+      "ids": [
+        "cro",
+        "signup",
+        "onboarding",
+        "paywalls",
+        "popups",
+        "offers",
+        "pricing",
+        "ab-testing",
+        "conversion-tracking",
+        "attribution",
+        "analytics"
+      ]
+    },
+    {
+      "key": "销售",
+      "title": "把合格线索推进到签约",
+      "dept": "市场部",
+      "inp": "线索、客户需求、采购流程与商务边界",
+      "out": "按客户确认的下一动作更新机会，核对报价与承诺；把异常条款交法务。",
+      "nxt": [
+        "法务",
+        "留存",
+        "承诺"
+      ],
+      "ids": [
+        "prospecting",
+        "lead-triage",
+        "account-research",
+        "account-tiering",
+        "call-prep",
+        "handle-objection",
+        "sales-enablement",
+        "deal-review",
+        "close-plan",
+        "pipeline-review",
+        "forecast",
+        "deal-desk",
+        "rfp-responder"
+      ]
+    },
+    {
+      "key": "留存",
+      "title": "识别流失风险并推进续约",
+      "dept": "市场部",
+      "inp": "分群使用数据、服务记录、合同期限",
+      "out": "区分产品问题、预算和未激活，给每个重点账户指定挽回动作；比较续约与留存变化。",
+      "nxt": [
+        "反馈",
+        "客服",
+        "续购窗口"
+      ],
+      "ids": [
+        "cohort-analysis",
+        "customer-health",
+        "renewal-radar",
+        "churn-prevention",
+        "expansion-whitespace",
+        "user-segmentation",
+        "growth-loops",
+        "north-star-metric"
+      ]
+    },
+    {
+      "key": "客服",
+      "title": "解决客户问题并形成知识库",
+      "dept": "市场部",
+      "inp": "工单、客户描述、服务承诺与历史案例",
+      "out": "记录复现条件、影响和客户期望，明确升级责任人；验证解决并将重复问题沉淀为文章。",
+      "nxt": [
+        "反馈",
+        "维护"
+      ],
+      "ids": [
+        "ticket-triage",
+        "customer-escalation",
+        "draft-response",
+        "kb-article",
+        "customer-research",
+        "content-humanizer"
+      ]
+    },
+    {
+      "key": "反馈",
+      "title": "从竞品变化和客户声音选迭代项",
+      "dept": "市场部",
+      "inp": "竞品变更证据、流失原因、需求和客户价值",
+      "out": "区分单点意见与重复信号，附来源、时间和反证；把可验证的需求交给产品负责人。",
+      "nxt": [
+        "规格",
+        "实验"
+      ],
+      "ids": [
+        "competitive-intelligence",
+        "competitive-battlecard",
+        "competitor-profiling",
+        "win-loss-review",
+        "customer-voice",
+        "analyze-feature-requests",
+        "metrics-review",
+        "prioritize-features"
+      ]
+    },
+    {
+      "key": "法务",
+      "title": "审查合同和政策对业务的影响",
+      "dept": "职能部",
+      "inp": "合同、目标法域、适用业务与政策原文",
+      "out": "核对发布机关、实施日期、适用条件与例外，逐条列义务和证据；形成红线、修订意见和待专业复核项。",
+      "nxt": [
+        "风控",
+        "销售"
+      ],
+      "ids": [
+        "review-contract",
+        "triage-nda",
+        "draft-nda",
+        "compliance-check",
+        "legal-risk-assessment",
+        "legal-response",
+        "vendor-check",
+        "privacy-policy",
+        "compliance-tracking"
+      ]
+    },
+    {
+      "key": "财务",
+      "title": "核对现金、账目和经营偏差",
+      "dept": "职能部",
+      "inp": "账期、收付款、总账与预算",
+      "out": "核对期初至期末勾稽关系，区分现金与利润；逐笔解释重大差异并列未决凭证。",
+      "nxt": [
+        "审计",
+        "商模",
+        "接单测算"
+      ],
+      "ids": [
+        "cash-flow-snapshot",
+        "reconciliation",
+        "journal-entry-prep",
+        "close-management",
+        "financial-statements",
+        "variance-analysis",
+        "financial-analyst",
+        "commercial-forecaster"
+      ]
+    },
+    {
+      "key": "风控",
+      "title": "识别经营风险并分配控制责任",
+      "dept": "职能部",
+      "inp": "流程、外部依赖、风险事件和容忍度",
+      "out": "按影响和发生可能性排序风险，分配预防与监测措施，登记剩余风险与复核日期。",
+      "nxt": [
+        "审计",
+        "安全"
+      ],
+      "ids": [
+        "risk-assessment",
+        "vendor-review",
+        "capacity-plan",
+        "process-optimization",
+        "procurement-optimizer",
+        "commercial-policy",
+        "pre-mortem"
+      ]
+    },
+    {
+      "key": "公关",
+      "title": "回应争议并维护客户信任",
+      "dept": "职能部",
+      "inp": "报道或投诉、核实事实、受影响人群",
+      "out": "建立事实时间线和未知项清单，拟定首轮声明、问答和更新时间；交责任人审批口径。",
+      "nxt": [
+        "客服",
+        "反馈"
+      ],
+      "ids": [
+        "public-relations",
+        "internal-comms",
+        "legal-response",
+        "status-report",
+        "copy-editing",
+        "content-humanizer"
+      ]
+    },
+    {
+      "key": "审计",
+      "title": "抽样检查关键控制是否有效",
+      "dept": "职能部",
+      "inp": "控制矩阵、审计期间、总体与证据",
+      "out": "写明抽样范围、测试程序、例外与影响，保留底稿；跟踪整改证据并复测。",
+      "nxt": [
+        "风控",
+        "财务"
+      ],
+      "ids": [
+        "audit-support",
+        "sox-testing",
+        "iso27001-audit-prep",
+        "validate-data",
+        "gdpr-audit-prep"
+      ]
+    },
+    {
+      "key": "安全",
+      "title": "检查访问权限与信息保护",
+      "dept": "职能部",
+      "inp": "资产、账户清单、数据分类和权限记录",
+      "out": "核对授权依据、离职回收、日志与复核周期；记录异常，指定整改人并验证关闭。",
+      "nxt": [
+        "审计",
+        "维护"
+      ],
+      "ids": [
+        "access-lifecycle",
+        "information-security-manager-iso27001",
+        "compliance-tracking",
+        "risk-assessment",
+        "runbook"
+      ]
+    },
+    {
+      "key": "度量",
+      "title": "核对商业指标并作出下一轮决策",
+      "dept": "产品部",
+      "inp": "指标定义、业务事件、实验与财务结果",
+      "out": "校验数据、分母和时间窗，列出变化原因及证据强弱；给出继续、调整或停止的决定。",
+      "nxt": [
+        "实验",
+        "反馈"
+      ],
+      "ids": [
+        "metrics-dashboard",
+        "ab-test-analysis",
+        "explore-data",
+        "statistical-analysis",
+        "validate-data",
+        "create-viz",
+        "build-dashboard",
+        "sql-queries",
+        "cohort-analysis",
+        "north-star-metric"
+      ]
+    },
+    {
+      "key": "组织",
+      "title": "补齐交付所需人员与产能",
+      "dept": "职能部",
+      "inp": "版本承诺、关键岗位、预算和团队负荷",
+      "out": "给出缺口、招聘或内部调配方案、成本及到岗时间；用入职检查表验证交接。",
+      "nxt": [
+        "开发",
+        "风控"
+      ],
+      "ids": [
+        "org-planning",
+        "comp-analysis",
+        "recruiting-pipeline",
+        "interview-prep",
+        "draft-offer",
+        "onboarding-HR",
+        "performance-review",
+        "capacity-plan"
+      ]
+    },
+    {
+      "key": "商务",
+      "title": "评估合作报价并约定交付边界",
+      "dept": "市场部",
+      "inp": "合作伙伴、报价单、联合活动目标与履约资源",
+      "out": "拆出渠道成本、折扣与交付承诺，复核利润底线；把约定事项与责任人写入合作备忘。",
+      "nxt": [
+        "销售",
+        "法务"
+      ],
+      "ids": [
+        "partnerships-architect",
+        "proposal-builder",
+        "co-marketing",
+        "account-plan",
+        "deal-slip-scenario",
+        "channel-economics"
+      ]
+    },
+    {
+      "key": "经营",
+      "title": "汇总本期经营结果并调整资源",
+      "dept": "职能部",
+      "inp": "产品里程碑、客户反馈、渠道和财务实绩",
+      "out": "列出相对目标的差距，逐项明确追加投入、调整和停止的条件；把结论交给下期任务负责人。",
+      "nxt": [
+        "机会",
+        "组织",
+        "度量"
+      ],
+      "ids": [
+        "stakeholder-update",
+        "summarize-meeting",
+        "business-pulse",
+        "pipeline-review",
+        "customer-health",
+        "variance-analysis",
+        "metrics-review"
+      ]
+    },
+    {
+      "key": "收款",
+      "title": "跟进回款与供应商发票",
+      "dept": "职能部",
+      "inp": "合同、账单、付款条款和银行流水",
+      "out": "按到期时间列出应收应付，核验单据匹配和争议，交付催收草稿与待复核支付清单。",
+      "nxt": [
+        "财务",
+        "法务"
+      ],
+      "ids": [
+        "invoice-chase",
+        "ap-processor",
+        "cash-flow-snapshot",
+        "reconciliation",
+        "close-management"
+      ]
+    },
+    {
+      "key": "承诺",
+      "title": "确认一笔商机能否交付",
+      "dept": "市场部",
+      "ids": [
+        "deal-review",
+        "close-plan",
+        "capacity-plan"
+      ],
+      "nxt": [
+        "验收",
+        "销售"
+      ],
+      "inp": "同一版报价、买方角色、审批与订单证据、验收人、资源与交期",
+      "out": "为每笔商机写明承诺状态、缺失条件与下一动作；已成立的订单单独核对排期。",
+      "book": "D03-S02"
+    },
+    {
+      "key": "续购窗口",
+      "title": "按到期资格解释续购",
+      "dept": "市场部",
+      "ids": [
+        "cohort-analysis",
+        "renewal-radar",
+        "customer-voice"
+      ],
+      "nxt": [
+        "反馈",
+        "销售"
+      ],
+      "inp": "合同到期日、自然采购周期、观察截止日及客户逐户状态",
+      "out": "交付一张可重算的续购表，分开报告已续、明确退出、到期未决和未到期。",
+      "book": "D03-S04"
+    },
+    {
+      "key": "接单测算",
+      "title": "核对利润与垫资后再接单",
+      "dept": "职能部",
+      "ids": [
+        "variance-analysis",
+        "cash-flow-snapshot",
+        "reconciliation"
+      ],
+      "nxt": [
+        "商模",
+        "经营"
+      ],
+      "inp": "订单收入确认依据、完整成本和费用、实际收付日与可用现金",
+      "out": "分别交付订单贡献、期间结果和逐日现金余额；说明何种付款或交期条件可承接下一单。",
+      "book": "D06-S04"
+    }
+  ],
+  "skills": {
+    "market-sizing": {
+      "id": "market-sizing",
+      "name": "market-sizing",
+      "desc": "Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches. Use when sizing a market opportunity, estimating addressable market, preparing for investor pitches, or evaluating market entry.",
+      "path": "references/sources/pm-skills/pm-market-research/skills/market-sizing/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-market-research/skills/market-sizing/SKILL.md",
+      "sha256": "96d1250ba0ab7e5b64c9be8278f63f9661b510237e423b42ef70ab914184faf8",
+      "zh": "交叉估算可服务市场的规模"
+    },
+    "market-segments": {
+      "id": "market-segments",
+      "name": "market-segments",
+      "desc": "Identify 3-5 potential customer segments with demographics, JTBD, and product fit analysis. Use when exploring market segments, identifying target audiences, evaluating new markets, or learning how to segment a market.",
+      "path": "references/sources/pm-skills/pm-market-research/skills/market-segments/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-market-research/skills/market-segments/SKILL.md",
+      "sha256": "f8425da0486d844a661fe18f809de1e055d7125c74ed423ee750cf2be74a2319",
+      "zh": "按需求识别市场细分"
+    },
+    "beachhead-segment": {
+      "id": "beachhead-segment",
+      "name": "beachhead-segment",
+      "desc": "Identify the first beachhead market segment for a product launch. Evaluates segments against burning pain, willingness to pay, winnable market share, and referral potential. Use when choosing a first market, targeting an initial customer segment, or planning market entry strategy.",
+      "path": "references/sources/pm-skills/pm-go-to-market/skills/beachhead-segment/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-go-to-market/skills/beachhead-segment/SKILL.md",
+      "sha256": "a3f94e98c05315938ad80d5e2103eab70096abfa40881dfb2c22a731d923ea5f",
+      "zh": "选择最适合首先进入的细分市场"
+    },
+    "pestle-analysis": {
+      "id": "pestle-analysis",
+      "name": "pestle-analysis",
+      "desc": "Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors. Use when assessing the macro environment, doing strategic planning, or evaluating external factors affecting your business.",
+      "path": "references/sources/pm-skills/pm-product-strategy/skills/pestle-analysis/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-strategy/skills/pestle-analysis/SKILL.md",
+      "sha256": "6b264055b74a8632ad41edf51766a56c4f20c7e90a4d16603915f4e17194c857",
+      "zh": "检查宏观环境变化"
+    },
+    "porters-five-forces": {
+      "id": "porters-five-forces",
+      "name": "porters-five-forces",
+      "desc": "Perform Porter's Five Forces analysis — competitive rivalry, supplier power, buyer power, threat of substitutes, and threat of new entrants. Use when analyzing industry dynamics, assessing competitive forces, or evaluating market attractiveness.",
+      "path": "references/sources/pm-skills/pm-product-strategy/skills/porters-five-forces/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-strategy/skills/porters-five-forces/SKILL.md",
+      "sha256": "a010cd7e52e29456f5a11f1d40eb0342fde738e8cf685e81b4dd50a0ebb81309",
+      "zh": "分析行业竞争与议价力量"
+    },
+    "swot-analysis": {
+      "id": "swot-analysis",
+      "name": "swot-analysis",
+      "desc": "Perform a detailed SWOT analysis — strengths, weaknesses, opportunities, and threats with actionable recommendations. Use when doing strategic assessment, competitive analysis, or evaluating a product or business position.",
+      "path": "references/sources/pm-skills/pm-product-strategy/skills/swot-analysis/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-strategy/skills/swot-analysis/SKILL.md",
+      "sha256": "ef5efbc2d4b84237469808cc9ce90016d926c0b3d65977f7edf21c60e3d5f85b",
+      "zh": "梳理业务优势、弱点和外部机会威胁"
+    },
+    "ansoff-matrix": {
+      "id": "ansoff-matrix",
+      "name": "ansoff-matrix",
+      "desc": "Generate an Ansoff Matrix analysis mapping growth strategies across market penetration, market development, product development, and diversification. Use when considering growth options, planning market expansion, or evaluating strategic growth paths.",
+      "path": "references/sources/pm-skills/pm-product-strategy/skills/ansoff-matrix/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-strategy/skills/ansoff-matrix/SKILL.md",
+      "sha256": "2f2ffa5bc380d8df5d217334ef7b9f19941beaa2602fd2e7ac4f321f447a4153",
+      "zh": "比较产品和市场的扩张方向"
+    },
+    "competitor-analysis": {
+      "id": "competitor-analysis",
+      "name": "competitor-analysis",
+      "desc": "Analyze competitors with strengths, weaknesses, and differentiation opportunities. Identifies direct competitors and maps the competitive landscape. Use when doing competitive research, preparing a competitive brief, or finding differentiation opportunities.",
+      "path": "references/sources/pm-skills/pm-market-research/skills/competitor-analysis/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-market-research/skills/competitor-analysis/SKILL.md",
+      "sha256": "8e627fc7fba96f223ad9f8fd23c6033a429cc28f9e9ce2d672854c6851810c2b",
+      "zh": "对照竞品能力与定位"
+    },
+    "product-vision": {
+      "id": "product-vision",
+      "name": "product-vision",
+      "desc": "Brainstorm an inspiring, achievable, and emotional product vision that motivates teams and aligns stakeholders. Use when defining or refining a product vision, creating a vision statement, or aligning the team around a shared direction.",
+      "path": "references/sources/pm-skills/pm-product-strategy/skills/product-vision/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-strategy/skills/product-vision/SKILL.md",
+      "sha256": "1414332e0f7893963a3308b8bea0d3ac05f5d704ad344f1c0013f7d7804a12fe",
+      "zh": "明确产品要创造的长期变化"
+    },
+    "user-research": {
+      "id": "user-research",
+      "name": "user-research",
+      "desc": "Plan, conduct, and synthesize user research. Trigger with \"user research plan\", \"interview guide\", \"usability test\", \"survey design\", \"research questions\", or when the user needs help with any aspect of understanding their users through research.",
+      "path": "references/sources/knowledge-work-plugins/design/skills/user-research/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/design/skills/user-research/SKILL.md",
+      "sha256": "fa18fc13d0f44aa869102962ef9466417ade726d659465195a40fbcf08cee156",
+      "zh": "设计用户研究"
+    },
+    "interview-script": {
+      "id": "interview-script",
+      "name": "interview-script",
+      "desc": "Create a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections. Follows The Mom Test principles — no leading questions, no pitching, focus on past behavior. Use when preparing for user interviews, creating interview guides, or planning discovery research.",
+      "path": "references/sources/pm-skills/pm-product-discovery/skills/interview-script/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-discovery/skills/interview-script/SKILL.md",
+      "sha256": "892ca53da9852d4e6516d2305f0c0eb2db370bf39693c6c6797154b44bec9b4c",
+      "zh": "编写非诱导式访谈提纲"
+    },
+    "survey-design": {
+      "id": "survey-design",
+      "name": "survey-design",
+      "desc": "Writing or reviewing a survey or questionnaire: customer feedback, NPS, CSAT, CES, pricing, market research, an in-app survey. Starts from the decision, asks about facts, pilots it, and reports the sample honestly.",
+      "path": "references/sources/pm-skills/pm-market-research/skills/survey-design/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-market-research/skills/survey-design/SKILL.md",
+      "sha256": "4ec88470d25b1d07d73ef14f677ea60a3c4082c28393413eeb8021fb483dd07c",
+      "zh": "设计问卷与抽样方式"
+    },
+    "live-polls": {
+      "id": "live-polls",
+      "name": "live-polls",
+      "desc": "A poll or vote in a meeting, workshop or training: 'run a quick poll', dot-voting, a confidence vote, a word cloud, a quiz. Ask the room before the discussion and decide with the result. AskOne by default.",
+      "path": "references/sources/pm-skills/pm-execution/skills/live-polls/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/live-polls/SKILL.md",
+      "sha256": "0dc9c92f2c47feaefeda64579b0d81df537e363d0ddad551b36c40089db49da4",
+      "zh": "准备现场投票题"
+    },
+    "summarize-interview": {
+      "id": "summarize-interview",
+      "name": "summarize-interview",
+      "desc": "Summarize a customer interview transcript into a structured template with JTBD, satisfaction signals, and action items. Use when processing interview recordings or transcripts, synthesizing discovery interviews, or creating interview summaries.",
+      "path": "references/sources/pm-skills/pm-product-discovery/skills/summarize-interview/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-discovery/skills/summarize-interview/SKILL.md",
+      "sha256": "5a2a0c8257f5e2f7ef098d4531acbbcd3087bb07bb87d4cabfe1a97ef1ad037c",
+      "zh": "从访谈记录提取事实与洞察"
+    },
+    "user-personas": {
+      "id": "user-personas",
+      "name": "user-personas",
+      "desc": "Create refined user personas from research data — 3 personas with JTBD, pains, gains, and unexpected insights. Use when building personas from survey data, creating user profiles from research, or segmenting users for product decisions.",
+      "path": "references/sources/pm-skills/pm-market-research/skills/user-personas/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-market-research/skills/user-personas/SKILL.md",
+      "sha256": "012eb8ea4a6ec51bb72ddf41f48d8520f26c7f4e43ff82d69d1074e3503087ca",
+      "zh": "用证据描述代表性用户"
+    },
+    "job-stories": {
+      "id": "job-stories",
+      "name": "job-stories",
+      "desc": "Create job stories using the 'When [situation], I want to [motivation], so I can [outcome]' format with detailed acceptance criteria. Use when writing job stories, creating JTBD-style backlog items, or expressing user situations and motivations.",
+      "path": "references/sources/pm-skills/pm-execution/skills/job-stories/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/job-stories/SKILL.md",
+      "sha256": "69f75264b311418a1ebaf06c9872ed1271203cfc6316466fcb99cc948ade800b",
+      "zh": "描述用户在具体情境下要完成的事"
+    },
+    "customer-journey-map": {
+      "id": "customer-journey-map",
+      "name": "customer-journey-map",
+      "desc": "Create an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opportunities. Use when mapping the customer experience, identifying friction points, improving onboarding, or visualizing the user journey.",
+      "path": "references/sources/pm-skills/pm-market-research/skills/customer-journey-map/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-market-research/skills/customer-journey-map/SKILL.md",
+      "sha256": "656c0e16318b3b24870065a8eabb8a116b72e47c167472836ce76ea97ec5c75e",
+      "zh": "标出客户旅程的触点和障碍"
+    },
+    "research-synthesis": {
+      "id": "research-synthesis",
+      "name": "research-synthesis",
+      "desc": "Synthesize user research into themes, insights, and recommendations. Use when you have interview transcripts, survey results, usability test notes, support tickets, or NPS responses that need to be distilled into patterns, user segments, and prioritized next steps.",
+      "path": "references/sources/knowledge-work-plugins/design/skills/research-synthesis/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/design/skills/research-synthesis/SKILL.md",
+      "sha256": "40048615dc81fc8b9b06104769498214d61a35ae4518a0995a12bbbd0ab945a1",
+      "zh": "综合多项用户研究"
+    },
+    "sentiment-analysis": {
+      "id": "sentiment-analysis",
+      "name": "sentiment-analysis",
+      "desc": "Analyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfaction insights. Use when analyzing user feedback at scale, running sentiment analysis on reviews or surveys, or identifying satisfaction patterns.",
+      "path": "references/sources/pm-skills/pm-market-research/skills/sentiment-analysis/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-market-research/skills/sentiment-analysis/SKILL.md",
+      "sha256": "516357ba8366845d13c4ee17acf96884571ad0fc8d3d48a2809c5cb84c95a01c",
+      "zh": "整理反馈的情绪和主题"
+    },
+    "identify-assumptions-new": {
+      "id": "identify-assumptions-new",
+      "name": "identify-assumptions-new",
+      "desc": "Identify risky assumptions for a new product idea across 8 risk categories including Go-to-Market, Strategy, and Team. Use when evaluating startup risks, assessing a new product concept, or mapping assumptions for a new venture.",
+      "path": "references/sources/pm-skills/pm-product-discovery/skills/identify-assumptions-new/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-discovery/skills/identify-assumptions-new/SKILL.md",
+      "sha256": "962b1e0c01e45ceb930e4d806c0ffb05e36cf25dcfef5497e7828d89d6ae474b",
+      "zh": "识别新产品未经验证的假设"
+    },
+    "identify-assumptions-existing": {
+      "id": "identify-assumptions-existing",
+      "name": "identify-assumptions-existing",
+      "desc": "Identify risky assumptions for a feature idea in an existing product across Value, Usability, Viability, and Feasibility. Uses multi-perspective devil's advocate thinking. Use when stress-testing a feature idea, doing risk assessment, or preparing for assumption mapping.",
+      "path": "references/sources/pm-skills/pm-product-discovery/skills/identify-assumptions-existing/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-discovery/skills/identify-assumptions-existing/SKILL.md",
+      "sha256": "59d788213014552ac64f589c71ce82b135f9ef4b84fec457446ad90795fd439f",
+      "zh": "查找现有产品改动的隐含假设"
+    },
+    "prioritize-assumptions": {
+      "id": "prioritize-assumptions",
+      "name": "prioritize-assumptions",
+      "desc": "Prioritize assumptions using an Impact × Risk matrix and suggest experiments for each. Use when triaging a list of assumptions, deciding what to test first, or applying the assumption prioritization canvas.",
+      "path": "references/sources/pm-skills/pm-product-discovery/skills/prioritize-assumptions/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-discovery/skills/prioritize-assumptions/SKILL.md",
+      "sha256": "18160a0138c788790c9dd22995ffdcfac485c1f0599c170d8668678e59766073",
+      "zh": "按影响和证据排列假设"
+    },
+    "brainstorm-experiments-new": {
+      "id": "brainstorm-experiments-new",
+      "name": "brainstorm-experiments-new",
+      "desc": "Design lean startup experiments (pretotypes) for a new product. Creates XYZ hypotheses and suggests low-effort validation methods like landing pages, explainer videos, and pre-orders. Use when validating a new product idea, creating pretotypes, or testing market demand.",
+      "path": "references/sources/pm-skills/pm-product-discovery/skills/brainstorm-experiments-new/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-discovery/skills/brainstorm-experiments-new/SKILL.md",
+      "sha256": "fe66d9ba76cf6b0e156298c88f752d8e1e62549fe77a7c01c0a74d8679da9334",
+      "zh": "为新产品设计低成本实验"
+    },
+    "brainstorm-experiments-existing": {
+      "id": "brainstorm-experiments-existing",
+      "name": "brainstorm-experiments-existing",
+      "desc": "Design experiments to test assumptions for an existing product — prototypes, A/B tests, spikes, and other low-effort validation methods. Use when validating assumptions, testing feature ideas cheaply, or planning product experiments.",
+      "path": "references/sources/pm-skills/pm-product-discovery/skills/brainstorm-experiments-existing/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-discovery/skills/brainstorm-experiments-existing/SKILL.md",
+      "sha256": "d72da1f4f08d5514662d7bad37dfc3ed4ef11fcc5b5ddec6ca5a8ac0e47f45c5",
+      "zh": "为存量产品设计验证实验"
+    },
+    "opportunity-solution-tree": {
+      "id": "opportunity-solution-tree",
+      "name": "opportunity-solution-tree",
+      "desc": "Build an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to opportunities, solutions, and experiments. Based on Teresa Torres' Continuous Discovery Habits. Use when structuring discovery work, mapping opportunities to solutions, or deciding what to build next.",
+      "path": "references/sources/pm-skills/pm-product-discovery/skills/opportunity-solution-tree/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-discovery/skills/opportunity-solution-tree/SKILL.md",
+      "sha256": "6b23e44a5ace86aa20d64cc130322265ace6a53a29831cc403b974098a379bcc",
+      "zh": "连接机会、方案和验证方法"
+    },
+    "pre-mortem": {
+      "id": "pre-mortem",
+      "name": "pre-mortem",
+      "desc": "Run a pre-mortem risk analysis on a PRD or launch plan. Categorizes risks as Tigers (real problems), Paper Tigers (overblown concerns), and Elephants (unspoken worries), then classifies as launch-blocking, fast-follow, or track. Use when preparing for launch, stress-testing a product plan, or identifying what could go wrong.",
+      "path": "references/sources/pm-skills/pm-execution/skills/pre-mortem/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/pre-mortem/SKILL.md",
+      "sha256": "0e5d92bdcf0e955be4c819d539b4de5054695b86ad465f4cdb03d4c8f7a0a3b9",
+      "zh": "上线前推演失败原因"
+    },
+    "ab-test-analysis": {
+      "id": "ab-test-analysis",
+      "name": "ab-test-analysis",
+      "desc": "Analyze A/B test results with statistical significance, sample size validation, confidence intervals, and ship/extend/stop recommendations. Use when evaluating experiment results, checking if a test reached significance, interpreting split test data, or deciding whether to ship a variant.",
+      "path": "references/sources/pm-skills/pm-data-analytics/skills/ab-test-analysis/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-data-analytics/skills/ab-test-analysis/SKILL.md",
+      "sha256": "9956966671d6d19d42acb6150307fd7954d16d1d150e8fd8277f99eec9a949e0",
+      "zh": "解读对照实验的效果与不确定性"
+    },
+    "lean-canvas": {
+      "id": "lean-canvas",
+      "name": "lean-canvas",
+      "desc": "Generate a Lean Canvas with problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue. Use when exploring a lean startup canvas, testing a business hypothesis, or modeling a new venture.",
+      "path": "references/sources/pm-skills/pm-product-strategy/skills/lean-canvas/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-strategy/skills/lean-canvas/SKILL.md",
+      "sha256": "5bafe7a33cf57631937fa863ebc6c3d3b0679808a6e5b5fa04b70be615fbc240",
+      "zh": "绘制精益商业画布"
+    },
+    "business-model": {
+      "id": "business-model",
+      "name": "business-model",
+      "desc": "Generate a Business Model Canvas with all 9 building blocks. Use when creating a business model, documenting how a business creates value, or analyzing an existing business model.",
+      "path": "references/sources/pm-skills/pm-product-strategy/skills/business-model/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-strategy/skills/business-model/SKILL.md",
+      "sha256": "515621fd8a41ecba5b7234d0d9e1e50185ba33805c4dd170b66364281f84acc8",
+      "zh": "拆解收入、成本与关键伙伴"
+    },
+    "value-proposition": {
+      "id": "value-proposition",
+      "name": "value-proposition",
+      "desc": "Design a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why customers should choose your product.",
+      "path": "references/sources/pm-skills/pm-product-strategy/skills/value-proposition/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-strategy/skills/value-proposition/SKILL.md",
+      "sha256": "b07cc0399582fc178be31b513b313d2420c7941dd568b52a0bf6cfb0ab6c4ec7",
+      "zh": "将客户痛点和产品价值对应"
+    },
+    "monetization-strategy": {
+      "id": "monetization-strategy",
+      "name": "monetization-strategy",
+      "desc": "Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, evaluating pricing strategies, or deciding how to monetize a product.",
+      "path": "references/sources/pm-skills/pm-product-strategy/skills/monetization-strategy/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-strategy/skills/monetization-strategy/SKILL.md",
+      "sha256": "2306d3c987e9572258fa1327a864049965dda3e4e873093482c6b671d686eea5",
+      "zh": "比较变现路径"
+    },
+    "pricing-strategy": {
+      "id": "pricing-strategy",
+      "name": "pricing-strategy",
+      "desc": "Analyze and design pricing strategies including pricing models, competitive pricing analysis, willingness-to-pay estimation, and price elasticity. Use when setting prices, evaluating pricing models, preparing for a pricing change, or comparing freemium vs paid approaches.",
+      "path": "references/sources/pm-skills/pm-product-strategy/skills/pricing-strategy/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-strategy/skills/pricing-strategy/SKILL.md",
+      "sha256": "09321c5984f3654077bd58921ec4b7235f47e00caf44445bd2e5a5ed13bcb895",
+      "zh": "验证定价和套餐"
+    },
+    "ideal-customer-profile": {
+      "id": "ideal-customer-profile",
+      "name": "ideal-customer-profile",
+      "desc": "Identify the Ideal Customer Profile (ICP) from research data with demographics, behaviors, JTBD, and needs. Use when defining your ICP, analyzing PMF survey data, or understanding who your best customers are.",
+      "path": "references/sources/pm-skills/pm-go-to-market/skills/ideal-customer-profile/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-go-to-market/skills/ideal-customer-profile/SKILL.md",
+      "sha256": "8d434df786db2290efb575f1d219c7e19650e7a7e3df9a5f4b82b0bd0d2ce298",
+      "zh": "定义理想客户画像"
+    },
+    "channel-economics": {
+      "id": "channel-economics",
+      "name": "channel-economics",
+      "desc": "Use for a direct vs partner channel review: fully loaded cost to serve, channel ROI and the best channel mix under constraints. Runs cost_to_serve_calculator.py, channel_roi_analyzer.py and channel_mix_optimizer.py.",
+      "path": "references/sources/claude-skills/commercial/skills/channel-economics/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/commercial/skills/channel-economics/SKILL.md",
+      "sha256": "3f103d44db38f453b5d5efaf6a5f23cc87d919d1e55d41fe738bf444a1aae97c",
+      "zh": "比较各渠道的利润与回收周期"
+    },
+    "saas-metrics-coach": {
+      "id": "saas-metrics-coach",
+      "name": "saas-metrics-coach",
+      "desc": "Use when someone shares SaaS revenue or customer numbers, or asks about ARR, MRR, churn, LTV, CAC, NRR or how their SaaS is doing. Computes metrics with metrics_calculator.py, quick ratio and unit economics.",
+      "path": "references/sources/claude-skills/finance/skills/saas-metrics-coach/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/finance/skills/saas-metrics-coach/SKILL.md",
+      "sha256": "c05514d18aeeda298bc563d7347c260f0801865bd6d7b7c77a69f888d98b1735",
+      "zh": "核算订阅业务的经营指标"
+    },
+    "product-strategy": {
+      "id": "product-strategy",
+      "name": "product-strategy",
+      "desc": "Create a comprehensive product strategy using the 9-section Product Strategy Canvas — vision, segments, costs, value propositions, trade-offs, metrics, growth, capabilities, and defensibility. Use when building a product strategy, creating a strategic plan, or defining product direction.",
+      "path": "references/sources/pm-skills/pm-product-strategy/skills/product-strategy/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-strategy/skills/product-strategy/SKILL.md",
+      "sha256": "50d4bfe62ae71a321271a491148e8dca4715a6a7550f82ffba2ded06f036d5b8",
+      "zh": "把产品战略写成可执行选择"
+    },
+    "brainstorm-ideas-new": {
+      "id": "brainstorm-ideas-new",
+      "name": "brainstorm-ideas-new",
+      "desc": "Brainstorm feature ideas for a new product in initial discovery from PM, Designer, and Engineer perspectives. Use when starting product discovery for a new product, exploring features for a startup idea, or doing initial ideation.",
+      "path": "references/sources/pm-skills/pm-product-discovery/skills/brainstorm-ideas-new/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-discovery/skills/brainstorm-ideas-new/SKILL.md",
+      "sha256": "400e5e0760d6dc52bfe34953d90db6223df532ce720d7e85568696ab5c3d34d2",
+      "zh": "为新市场产生产品方案"
+    },
+    "brainstorm-ideas-existing": {
+      "id": "brainstorm-ideas-existing",
+      "name": "brainstorm-ideas-existing",
+      "desc": "Brainstorm product ideas for an existing product using multi-perspective ideation from PM, Designer, and Engineer viewpoints. Use when generating new feature ideas, brainstorming solutions for an identified opportunity, or ideating with a product trio.",
+      "path": "references/sources/pm-skills/pm-product-discovery/skills/brainstorm-ideas-existing/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-discovery/skills/brainstorm-ideas-existing/SKILL.md",
+      "sha256": "cf950494541bd9b47e60054f1a917cef02094fe8c769d5feca86603282e2bd5b",
+      "zh": "围绕现有产品寻找改进方向"
+    },
+    "prioritize-features": {
+      "id": "prioritize-features",
+      "name": "prioritize-features",
+      "desc": "Prioritize a backlog of feature ideas based on impact, effort, risk, and strategic alignment with top 5 recommendations. Use when prioritizing a feature backlog, making scope decisions, or ranking product ideas.",
+      "path": "references/sources/pm-skills/pm-product-discovery/skills/prioritize-features/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-discovery/skills/prioritize-features/SKILL.md",
+      "sha256": "d05c001ea9d71ccf6aca975e0530a2a85545192b1eec9e06cc6d1339156c0f87",
+      "zh": "筛选最值得开发的功能"
+    },
+    "prioritization-frameworks": {
+      "id": "prioritization-frameworks",
+      "name": "prioritization-frameworks",
+      "desc": "Reference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates — RICE, ICE, Kano, MoSCoW, Opportunity Score, and more. Use when selecting a prioritization method, comparing frameworks like RICE vs ICE, or learning how different prioritization approaches work.",
+      "path": "references/sources/pm-skills/pm-execution/skills/prioritization-frameworks/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/prioritization-frameworks/SKILL.md",
+      "sha256": "a5a5aa5235ea2e9381aafaefc799aa84a9ce27a4f14575c4f1c0cf835db9e7d8",
+      "zh": "选择合适的优先级方法"
+    },
+    "create-prd": {
+      "id": "create-prd",
+      "name": "create-prd",
+      "desc": "Create a lean, decision-ready Product Requirements Document with an 8-section template: summary, contacts, background, objective, market segments, value propositions (6-part JTBD template), solution, and release. Lean by default (about one to two pages), with a fuller spec on request. Use when writing a PRD, documenting product requirements, preparing a feature spec, or reviewing an existing PRD.",
+      "path": "references/sources/pm-skills/pm-execution/skills/create-prd/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/create-prd/SKILL.md",
+      "sha256": "e3aa10a437ed7f748a957bd5d1eb06d8fa3f56dc728dcb93ce484387ecc3fa13",
+      "zh": "编写产品需求文档"
+    },
+    "user-stories": {
+      "id": "user-stories",
+      "name": "user-stories",
+      "desc": "Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links, and acceptance criteria. Use when writing user stories, breaking down features into backlog items, or defining acceptance criteria.",
+      "path": "references/sources/pm-skills/pm-execution/skills/user-stories/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/user-stories/SKILL.md",
+      "sha256": "8ce89cd81de5a3df7d504380d18c54cec6c59ccdb7fd18cbcb62b6b6183d0a55",
+      "zh": "把需求写成可验收的用户故事"
+    },
+    "outcome-roadmap": {
+      "id": "outcome-roadmap",
+      "name": "outcome-roadmap",
+      "desc": "Transform an output-focused roadmap into an outcome-focused one that communicates strategic intent. Rewrites initiatives as outcome statements reflecting user and business impacts. Use when shifting to outcome roadmaps, making a roadmap more strategic, or rewriting feature lists as outcomes.",
+      "path": "references/sources/pm-skills/pm-execution/skills/outcome-roadmap/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/outcome-roadmap/SKILL.md",
+      "sha256": "3d2da8f82f4cbe4c8d06593765e2fbb94913676e9a65663b7da9e53c9a0082c8",
+      "zh": "用业务结果编排路线图"
+    },
+    "sprint-plan": {
+      "id": "sprint-plan",
+      "name": "sprint-plan",
+      "desc": "Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification. Use when preparing for sprint planning, estimating team capacity, selecting stories, or balancing sprint scope against velocity.",
+      "path": "references/sources/pm-skills/pm-execution/skills/sprint-plan/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/sprint-plan/SKILL.md",
+      "sha256": "54ac27165fd7d57fe3f598f1ef66087d03fbf56d9f583adf7608ccaca9ce3382",
+      "zh": "按产能规划迭代范围"
+    },
+    "brainstorm-okrs": {
+      "id": "brainstorm-okrs",
+      "name": "brainstorm-okrs",
+      "desc": "Brainstorm team-level OKRs aligned with company objectives — qualitative objectives with measurable key results. Use when setting quarterly OKRs, aligning team goals with company strategy, drafting objectives, or learning how to write effective OKRs.",
+      "path": "references/sources/pm-skills/pm-execution/skills/brainstorm-okrs/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/brainstorm-okrs/SKILL.md",
+      "sha256": "9d4fcbc779aad7bcf4b4793148be31bec4bfe70e08f5885cf34635ecd08c47ee",
+      "zh": "设计目标与关键结果"
+    },
+    "stakeholder-map": {
+      "id": "stakeholder-map",
+      "name": "stakeholder-map",
+      "desc": "Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant, and generate a communication plan. Use when managing stakeholders, preparing for a launch, aligning cross-functional teams, or planning stakeholder engagement.",
+      "path": "references/sources/pm-skills/pm-execution/skills/stakeholder-map/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/stakeholder-map/SKILL.md",
+      "sha256": "f407f3a350c10d5c1674013b5903048e16357a50d49f6daa24a0ad475d40a3ed",
+      "zh": "识别利益相关方及沟通需求"
+    },
+    "design-critique": {
+      "id": "design-critique",
+      "name": "design-critique",
+      "desc": "Get structured design feedback on usability, hierarchy, and consistency. Trigger with \"review this design\", \"critique this mockup\", \"what do you think of this screen?\", or when sharing a Figma link or screenshot for feedback at any stage from exploration to final polish.",
+      "path": "references/sources/knowledge-work-plugins/design/skills/design-critique/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/design/skills/design-critique/SKILL.md",
+      "sha256": "3a4f260eb9f60b431782bf6d90f22afb480c0c67860267a032df58a3e1bd19cd",
+      "zh": "评审设计是否支持用户目标"
+    },
+    "accessibility-review": {
+      "id": "accessibility-review",
+      "name": "accessibility-review",
+      "desc": "Run a WCAG 2.1 AA accessibility audit on a design or page. Trigger with \"audit accessibility\", \"check a11y\", \"is this accessible?\", or when reviewing a design for color contrast, keyboard navigation, touch target size, or screen reader behavior before handoff.",
+      "path": "references/sources/knowledge-work-plugins/design/skills/accessibility-review/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/design/skills/accessibility-review/SKILL.md",
+      "sha256": "ef42982af0d51238dda2ab16d08626712891bdd41864876c32d1e7b13fb3124f",
+      "zh": "检查无障碍使用障碍"
+    },
+    "design-system": {
+      "id": "design-system",
+      "name": "design-system",
+      "desc": "Audit, document, or extend your design system. Use when checking for naming inconsistencies or hardcoded values across components, writing documentation for a component's variants, states, and accessibility notes, or designing a new pattern that fits the existing system.",
+      "path": "references/sources/knowledge-work-plugins/design/skills/design-system/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/design/skills/design-system/SKILL.md",
+      "sha256": "fb31bd0144c43955106f01927126ae9fd2d4148be44c8d5887b3391f40c31445",
+      "zh": "统一组件与交互规范"
+    },
+    "ux-copy": {
+      "id": "ux-copy",
+      "name": "ux-copy",
+      "desc": "Write or review UX copy — microcopy, error messages, empty states, CTAs. Trigger with \"write copy for\", \"what should this button say?\", \"review this error message\", or when naming a CTA, wording a confirmation dialog, filling an empty state, or writing onboarding text.",
+      "path": "references/sources/knowledge-work-plugins/design/skills/ux-copy/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/design/skills/ux-copy/SKILL.md",
+      "sha256": "d46a00a62ec637e9ca9d5f7823ea3e0a4ec26dffc53bb5035f59b48ebfcdcde7",
+      "zh": "编写界面提示、错误和按钮文案"
+    },
+    "design-handoff": {
+      "id": "design-handoff",
+      "name": "design-handoff",
+      "desc": "Generate developer handoff specs from a design. Use when a design is ready for engineering and needs a spec sheet covering layout, design tokens, component props, interaction states, responsive breakpoints, edge cases, and animation details.",
+      "path": "references/sources/knowledge-work-plugins/design/skills/design-handoff/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/design/skills/design-handoff/SKILL.md",
+      "sha256": "38f1efc807928030654218443ad07f6a37ac82de6b4d627a03113a3568d787b7",
+      "zh": "交接界面状态与实现细节"
+    },
+    "copy-editing": {
+      "id": "copy-editing",
+      "name": "copy-editing",
+      "desc": "When the user wants to edit, tighten, proofread, or refresh existing copy, or asks whether to keep, cut, or change a line in it, without rewriting from scratch. Every edit removes AI tells: 'it's not X, it's Y' reveals, 'no X, no Y, no Z' lists, and sentences that trail into extra comma clauses. A request to fix one line gets a point edit to that line only. For new copy, see copywriting.",
+      "path": "references/sources/marketingskills/skills/copy-editing/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/copy-editing/SKILL.md",
+      "sha256": "ef6bf9e792edac9ff524576a7eea6980fd13e605e5561736b045136341cde63e",
+      "zh": "编辑营销文案并校对表达"
+    },
+    "tech-stack-evaluator": {
+      "id": "tech-stack-evaluator",
+      "name": "tech-stack-evaluator",
+      "desc": "Compare frameworks or tech stacks before committing: side-by-side scoring, total cost of ownership, ecosystem health and migration risk. Use whenever the user asks which framework to pick, X vs Y, whether to switch stacks, or if a migration is worth it.",
+      "path": "references/sources/claude-skills/engineering-team/skills/tech-stack-evaluator/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/engineering-team/skills/tech-stack-evaluator/SKILL.md",
+      "sha256": "20084dc9686afb30696ca8b588915b342146fbdc2fa3fab75fb8ff85106e0283",
+      "zh": "按约束比较技术方案"
+    },
+    "architecture": {
+      "id": "architecture",
+      "name": "architecture",
+      "desc": "Create or evaluate an architecture decision record (ADR). Use when choosing between technologies (e.g., Kafka vs SQS), documenting a design decision with trade-offs and consequences, reviewing a system design proposal, or designing a new component from requirements and constraints.",
+      "path": "references/sources/knowledge-work-plugins/engineering/skills/architecture/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/engineering/skills/architecture/SKILL.md",
+      "sha256": "de7db3170a3ae1a894c70ef6cb555fe15618ed9b9674d20895eda3d2a0a5f9a2",
+      "zh": "记录架构决策与取舍"
+    },
+    "system-design": {
+      "id": "system-design",
+      "name": "system-design",
+      "desc": "Design systems, services, and architectures. Trigger with \"design a system for\", \"how should we architect\", \"system design for\", \"what's the right architecture for\", or when the user needs help with API design, data modeling, or service boundaries.",
+      "path": "references/sources/knowledge-work-plugins/engineering/skills/system-design/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/engineering/skills/system-design/SKILL.md",
+      "sha256": "8f28eca99f2208872fc2483fcc93326b628f4f73116e91309a95e05da86a0ab5",
+      "zh": "设计服务边界、数据流和接口"
+    },
+    "writing-plans": {
+      "id": "writing-plans",
+      "name": "writing-plans",
+      "desc": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "path": "references/sources/superpowers/skills/writing-plans/SKILL.md",
+      "repo": "superpowers",
+      "url": "https://github.com/obra/superpowers/blob/22f0b463e7a5e579904dd6211a520321035526f7/skills/writing-plans/SKILL.md",
+      "sha256": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a",
+      "zh": "将需求拆成可验证的实施步骤"
+    },
+    "test-driven-development": {
+      "id": "test-driven-development",
+      "name": "test-driven-development",
+      "desc": "Use when implementing any feature or bugfix, before writing implementation code",
+      "path": "references/sources/superpowers/skills/test-driven-development/SKILL.md",
+      "repo": "superpowers",
+      "url": "https://github.com/obra/superpowers/blob/22f0b463e7a5e579904dd6211a520321035526f7/skills/test-driven-development/SKILL.md",
+      "sha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d",
+      "zh": "用先失败的测试驱动实现"
+    },
+    "executing-plans": {
+      "id": "executing-plans",
+      "name": "executing-plans",
+      "desc": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available",
+      "path": "references/sources/superpowers/skills/executing-plans/SKILL.md",
+      "repo": "superpowers",
+      "url": "https://github.com/obra/superpowers/blob/22f0b463e7a5e579904dd6211a520321035526f7/skills/executing-plans/SKILL.md",
+      "sha256": "deaf176fa179827e80f2ea3101db3ea90fdf562ebef340eba761e4687940f5f5",
+      "zh": "按计划逐项实施与验证"
+    },
+    "using-git-worktrees": {
+      "id": "using-git-worktrees",
+      "name": "using-git-worktrees",
+      "desc": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+      "path": "references/sources/superpowers/skills/using-git-worktrees/SKILL.md",
+      "repo": "superpowers",
+      "url": "https://github.com/obra/superpowers/blob/22f0b463e7a5e579904dd6211a520321035526f7/skills/using-git-worktrees/SKILL.md",
+      "sha256": "8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd",
+      "zh": "创建隔离的代码工作区"
+    },
+    "receiving-code-review": {
+      "id": "receiving-code-review",
+      "name": "receiving-code-review",
+      "desc": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+      "path": "references/sources/superpowers/skills/receiving-code-review/SKILL.md",
+      "repo": "superpowers",
+      "url": "https://github.com/obra/superpowers/blob/22f0b463e7a5e579904dd6211a520321035526f7/skills/receiving-code-review/SKILL.md",
+      "sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438",
+      "zh": "验证并处理代码评审意见"
+    },
+    "code-review": {
+      "id": "code-review",
+      "name": "code-review",
+      "desc": "Review code changes for security, performance, and correctness. Trigger with a PR URL or diff, \"review this before I merge\", \"is this code safe?\", or when checking a change for N+1 queries, injection risks, missing edge cases, or error handling gaps.",
+      "path": "references/sources/knowledge-work-plugins/engineering/skills/code-review/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/engineering/skills/code-review/SKILL.md",
+      "sha256": "6303932f1b301c614a6f5a0099cd87a19e1cd1b7cbfa1a1e11e996edbca6426b",
+      "zh": "按风险检查代码变更"
+    },
+    "finishing-a-development-branch": {
+      "id": "finishing-a-development-branch",
+      "name": "finishing-a-development-branch",
+      "desc": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+      "path": "references/sources/superpowers/skills/finishing-a-development-branch/SKILL.md",
+      "repo": "superpowers",
+      "url": "https://github.com/obra/superpowers/blob/22f0b463e7a5e579904dd6211a520321035526f7/skills/finishing-a-development-branch/SKILL.md",
+      "sha256": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65",
+      "zh": "验证开发分支并选择集成方式"
+    },
+    "testing-strategy": {
+      "id": "testing-strategy",
+      "name": "testing-strategy",
+      "desc": "Design test strategies and test plans. Trigger with \"how should we test\", \"test strategy for\", \"write tests for\", \"test plan\", \"what tests do we need\", or when the user needs help with testing approaches, coverage, or test architecture.",
+      "path": "references/sources/knowledge-work-plugins/engineering/skills/testing-strategy/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/engineering/skills/testing-strategy/SKILL.md",
+      "sha256": "5c5e95830754bbdd838213fa05fc8f07523f591fd558fd3c86031ffd479f7a9e",
+      "zh": "按风险设计测试覆盖"
+    },
+    "test-scenarios": {
+      "id": "test-scenarios",
+      "name": "test-scenarios",
+      "desc": "Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles, step-by-step actions, and expected outcomes. Use when writing QA test cases, creating test plans, defining acceptance tests, or preparing for feature validation.",
+      "path": "references/sources/pm-skills/pm-execution/skills/test-scenarios/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/test-scenarios/SKILL.md",
+      "sha256": "2dc10ebb6359604275f26234d3c66c9ccc952e501ad5b685c23a5c0f34f634d4",
+      "zh": "列出正常、异常和边界测试场景"
+    },
+    "dummy-dataset": {
+      "id": "dummy-dataset",
+      "name": "dummy-dataset",
+      "desc": "Generate realistic dummy datasets for testing with customizable columns, constraints, and output formats (CSV, JSON, SQL, Python script). Use when creating test data, building mock datasets, or generating sample data for development and demos.",
+      "path": "references/sources/pm-skills/pm-execution/skills/dummy-dataset/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/dummy-dataset/SKILL.md",
+      "sha256": "35ca70a479f3c9cbdbee2d59c56d777886a8788aa79bd4bf3258b2cf557937aa",
+      "zh": "生成测试用合成数据"
+    },
+    "requesting-code-review": {
+      "id": "requesting-code-review",
+      "name": "requesting-code-review",
+      "desc": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "path": "references/sources/superpowers/skills/requesting-code-review/SKILL.md",
+      "repo": "superpowers",
+      "url": "https://github.com/obra/superpowers/blob/22f0b463e7a5e579904dd6211a520321035526f7/skills/requesting-code-review/SKILL.md",
+      "sha256": "2180e14a448e9410bec88e6646a2d1f0ce7fdd58de27388c1e052e929679d2bc",
+      "zh": "准备变更范围并发起代码评审"
+    },
+    "verification-before-completion": {
+      "id": "verification-before-completion",
+      "name": "verification-before-completion",
+      "desc": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "path": "references/sources/superpowers/skills/verification-before-completion/SKILL.md",
+      "repo": "superpowers",
+      "url": "https://github.com/obra/superpowers/blob/22f0b463e7a5e579904dd6211a520321035526f7/skills/verification-before-completion/SKILL.md",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "zh": "用实际执行结果核验完成声明"
+    },
+    "deploy-checklist": {
+      "id": "deploy-checklist",
+      "name": "deploy-checklist",
+      "desc": "Pre-deployment verification checklist. Use when about to ship a release, deploying a change with database migrations or feature flags, verifying CI status and approvals before going to production, or documenting rollback triggers ahead of time.",
+      "path": "references/sources/knowledge-work-plugins/engineering/skills/deploy-checklist/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/engineering/skills/deploy-checklist/SKILL.md",
+      "sha256": "85ca53dc471970e3e12c36ec814ebf5f6cb9419016c55adb05ff34789bae3be9",
+      "zh": "检查部署、监控与回滚条件"
+    },
+    "release-notes": {
+      "id": "release-notes",
+      "name": "release-notes",
+      "desc": "Generate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summaries organized by category (new features, improvements, fixes). Use when writing release notes, creating changelogs, announcing product updates, or summarizing what shipped.",
+      "path": "references/sources/pm-skills/pm-execution/skills/release-notes/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/release-notes/SKILL.md",
+      "sha256": "b617edd39e721267c9726286b6304f086991f5e2215b848c952a8ad9e001a0d3",
+      "zh": "面向用户编写版本说明"
+    },
+    "tech-debt": {
+      "id": "tech-debt",
+      "name": "tech-debt",
+      "desc": "Identify, categorize, and prioritize technical debt. Trigger with \"tech debt\", \"technical debt audit\", \"what should we refactor\", \"code health\", or when the user asks about code quality, refactoring priorities, or maintenance backlog.",
+      "path": "references/sources/knowledge-work-plugins/engineering/skills/tech-debt/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/engineering/skills/tech-debt/SKILL.md",
+      "sha256": "ed3b4b1450c0fd9b8dad17313b5a4fafd8e6947d380b79b36a2e8259f3b1df0f",
+      "zh": "识别和排序技术债务"
+    },
+    "incident-response": {
+      "id": "incident-response",
+      "name": "incident-response",
+      "desc": "Run an incident response workflow — triage, communicate, and write postmortem. Trigger with \"we have an incident\", \"production is down\", an alert that needs severity assessment, a status update mid-incident, or when writing a blameless postmortem after resolution.",
+      "path": "references/sources/knowledge-work-plugins/engineering/skills/incident-response/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/engineering/skills/incident-response/SKILL.md",
+      "sha256": "9eaa7a974c90395ac7116e82710f74546f38e69f735d78f684ee13fd79646e9a",
+      "zh": "协调故障响应与恢复"
+    },
+    "systematic-debugging": {
+      "id": "systematic-debugging",
+      "name": "systematic-debugging",
+      "desc": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "path": "references/sources/superpowers/skills/systematic-debugging/SKILL.md",
+      "repo": "superpowers",
+      "url": "https://github.com/obra/superpowers/blob/22f0b463e7a5e579904dd6211a520321035526f7/skills/systematic-debugging/SKILL.md",
+      "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+      "zh": "用观察和假设定位根因"
+    },
+    "runbook": {
+      "id": "runbook",
+      "name": "runbook",
+      "desc": "Create or update an operational runbook for a recurring task or procedure. Use when documenting a task that on-call or ops needs to run repeatably, turning tribal knowledge into exact step-by-step commands, adding troubleshooting and rollback steps to an existing procedure, or writing escalation paths for when things go wrong.",
+      "path": "references/sources/knowledge-work-plugins/operations/skills/runbook/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/operations/skills/runbook/SKILL.md",
+      "sha256": "c5c3eaa4c22fff96ec7239ce67eb3e100661b20a2818749e2f7ee21787233185",
+      "zh": "编写可复用的操作手册"
+    },
+    "change-request": {
+      "id": "change-request",
+      "name": "change-request",
+      "desc": "Create a change management request with impact analysis and rollback plan. Use when proposing a system or process change that needs approval, preparing a change record for CAB review, documenting risk and rollback steps before a deployment, or planning stakeholder communications for a rollout.",
+      "path": "references/sources/knowledge-work-plugins/operations/skills/change-request/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/operations/skills/change-request/SKILL.md",
+      "sha256": "b1ee71cc1fecb22c7d27e2e00171f5d62fb54c405095b51098dacfea0447d8d7",
+      "zh": "记录变更影响、审批与回退"
+    },
+    "documentation": {
+      "id": "documentation",
+      "name": "documentation",
+      "desc": "Write and maintain technical documentation. Trigger with \"write docs for\", \"document this\", \"create a README\", \"write a runbook\", \"onboarding guide\", or when the user needs help with any form of technical writing — API docs, architecture docs, or operational runbooks.",
+      "path": "references/sources/knowledge-work-plugins/engineering/skills/documentation/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/engineering/skills/documentation/SKILL.md",
+      "sha256": "1d469418f786a05be83d2a05f04d68788aeed584d13863a650f5ad73c6c4cf50",
+      "zh": "编写工程文档"
+    },
+    "retro": {
+      "id": "retro",
+      "name": "retro",
+      "desc": "Facilitate a structured sprint retrospective — what went well, what didn't, and prioritized action items with owners and deadlines. Use when running a retrospective, reflecting on a sprint, creating action items from team feedback, or learning how to run effective retros.",
+      "path": "references/sources/pm-skills/pm-execution/skills/retro/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/retro/SKILL.md",
+      "sha256": "1559eafbaf7a7c1a0d3a736968b7fd9f2bb21489656661f5f70a61e6730c0c1e",
+      "zh": "复盘迭代并分配改进行动"
+    },
+    "process-doc": {
+      "id": "process-doc",
+      "name": "process-doc",
+      "desc": "Document a business process — flowcharts, RACI, and SOPs. Use when formalizing a process that lives in someone's head, building a RACI to clarify who owns what, writing an SOP for a handoff or audit, or capturing the exceptions and edge cases of how work actually gets done.",
+      "path": "references/sources/knowledge-work-plugins/operations/skills/process-doc/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/operations/skills/process-doc/SKILL.md",
+      "sha256": "fceeeddb363e813ba831f9f2de1adb4c7e45ad179366bbb9ea9e40377abe96a9",
+      "zh": "将业务流程整理成操作说明"
+    },
+    "product-name": {
+      "id": "product-name",
+      "name": "product-name",
+      "desc": "Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. Use when naming a new product, rebranding, or exploring product name ideas.",
+      "path": "references/sources/pm-skills/pm-marketing-growth/skills/product-name/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-marketing-growth/skills/product-name/SKILL.md",
+      "sha256": "16d715bbe6ab07b024a63a1a38f3616a3d9602bf4ca9425e1bb33496becce0b3",
+      "zh": "生成并比较产品名称"
+    },
+    "brand-guidelines": {
+      "id": "brand-guidelines",
+      "name": "brand-guidelines",
+      "desc": "Use when writing or enforcing brand guidelines (colors, typography, logo rules, imagery, tone of voice), or checking an asset against them. Builds the color system, type scale and tone matrix, including Anthropic's identity.",
+      "path": "references/sources/claude-skills/marketing-skill/skills/brand-guidelines/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/marketing-skill/skills/brand-guidelines/SKILL.md",
+      "sha256": "039422de952148aecbb46a5ffeb1f3d24bcf116127d48c7ae35b770de1b3d74d",
+      "zh": "明确品牌风格与一致性规则"
+    },
+    "legal-risk-assessment": {
+      "id": "legal-risk-assessment",
+      "name": "legal-risk-assessment",
+      "desc": "Assess and classify legal risks using a severity-by-likelihood framework with escalation criteria. Use when evaluating contract risk, assessing deal exposure, classifying issues by severity, or determining whether a matter needs senior counsel or outside legal review.",
+      "path": "references/sources/knowledge-work-plugins/legal/skills/legal-risk-assessment/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/legal/skills/legal-risk-assessment/SKILL.md",
+      "sha256": "9f7985e3a98ac8419b52067cdaa1b72f754fa38c20489e7f0bf9de36347d4d89",
+      "zh": "评估法律风险的影响和升级条件"
+    },
+    "product-marketing": {
+      "id": "product-marketing",
+      "name": "product-marketing",
+      "desc": "When the user wants to create or update the product marketing context doc (.agents/product-marketing.md), or asks what belongs in it or whether positioning or ICP is clear enough: product, ICP, positioning, competitors, customer language, brand voice. Use it before other marketing skills on a new project, when the audience or positioning changes, and to log learnings.",
+      "path": "references/sources/marketingskills/skills/product-marketing/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/product-marketing/SKILL.md",
+      "sha256": "8dbccc22998b3cac194c3509fa93d119163b82c9b0a1ce573e6737e5a5ccf555",
+      "zh": "建立产品营销背景资料"
+    },
+    "gtm-strategy": {
+      "id": "gtm-strategy",
+      "name": "gtm-strategy",
+      "desc": "Create a go-to-market strategy covering marketing channels, messaging, success metrics, and launch timeline. Use when planning a product launch, creating a GTM plan from scratch, or defining a launch strategy for a new market.",
+      "path": "references/sources/pm-skills/pm-go-to-market/skills/gtm-strategy/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-go-to-market/skills/gtm-strategy/SKILL.md",
+      "sha256": "4b12597b63de4794c04faf226d996857370843681ab07f4b28d64a9d431a0ff7",
+      "zh": "设计进入市场的路线"
+    },
+    "gtm-motions": {
+      "id": "gtm-motions",
+      "name": "gtm-motions",
+      "desc": "Identify the best GTM motions and tools across 7 motion types: Inbound, Outbound, Paid Digital, Community, Partners, ABM, and PLG. Use when selecting marketing channels, choosing between inbound and outbound strategy, or planning cross-channel campaigns.",
+      "path": "references/sources/pm-skills/pm-go-to-market/skills/gtm-motions/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-go-to-market/skills/gtm-motions/SKILL.md",
+      "sha256": "b26db17f9eee4f04aa3d53bf3c393da0574a3fa54d59eb7427e0cf5edf2377c3",
+      "zh": "比较销售驱动等入市方式"
+    },
+    "positioning-ideas": {
+      "id": "positioning-ideas",
+      "name": "positioning-ideas",
+      "desc": "Brainstorm product positioning ideas differentiated from competitors. Identifies top competitors and generates positioning statements with rationale. Use when developing product positioning, differentiating from competitors, or crafting brand positioning strategy.",
+      "path": "references/sources/pm-skills/pm-marketing-growth/skills/positioning-ideas/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-marketing-growth/skills/positioning-ideas/SKILL.md",
+      "sha256": "8864f284e66c8bb106c46dc5e51656a47ae4792e39091eb3a49f63cde00c3850",
+      "zh": "提出差异化定位"
+    },
+    "value-prop-statements": {
+      "id": "value-prop-statements",
+      "name": "value-prop-statements",
+      "desc": "Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. Use when writing marketing copy, creating sales messaging, or crafting onboarding messages.",
+      "path": "references/sources/pm-skills/pm-marketing-growth/skills/value-prop-statements/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-marketing-growth/skills/value-prop-statements/SKILL.md",
+      "sha256": "5f4e89542439b16d18af608d91d0a319c0e66a6d89257da38d6652a655aae5bc",
+      "zh": "写出针对客群的价值主张"
+    },
+    "launch": {
+      "id": "launch",
+      "name": "launch",
+      "desc": "When the user wants to plan a product or feature launch, or asks whether it's ready, when to announce, or how to get noticed: Product Hunt, beta and early access, waitlists, release go-to-market, launch checklists, release notes. For marketing after launch, see marketing-ideas. For the offer, see offers.",
+      "path": "references/sources/marketingskills/skills/launch/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/launch/SKILL.md",
+      "sha256": "9d93f17367df59103fd932462cb170d1cfa5561d44e00423a52f7dadbce1bc3d",
+      "zh": "安排发布活动和节奏"
+    },
+    "marketing-plan": {
+      "id": "marketing-plan",
+      "name": "marketing-plan",
+      "desc": "When the user wants a full marketing or go-to-market plan for a client, an advised company, or their own product, or asks how to sequence or prioritize several initiatives with a fixed team and budget: channels, budget, team, goals across AARRR, market sizing. For positioning first, see product-marketing. For ideas only, see marketing-ideas.",
+      "path": "references/sources/marketingskills/skills/marketing-plan/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/marketing-plan/SKILL.md",
+      "sha256": "9f4b07b78d58ea5c5da23e91e05304047df60685485c16c28352c0fb99a80ac0",
+      "zh": "编制营销计划及衡量方法"
+    },
+    "co-marketing": {
+      "id": "co-marketing",
+      "name": "co-marketing",
+      "desc": "When the user wants co-marketing partners or joint campaigns, or asks whether a partner fits, a size mismatch matters, or how to split work and leads: integration partners, cross-promotion, co-branded content, joint webinars. For referral programs, see referrals. For launch partnerships, see launch. For running the event, see events.",
+      "path": "references/sources/marketingskills/skills/co-marketing/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/co-marketing/SKILL.md",
+      "sha256": "906c48e61f49c7c94e4e0c3bfdad9556c31b8c9312b55bb762df393dfa205adc",
+      "zh": "组织合作伙伴联合推广"
+    },
+    "events": {
+      "id": "events",
+      "name": "events",
+      "desc": "When the user wants to plan, run, sponsor, or speak at events, or asks whether an event or booth is worth the money: webinars, conferences, booths, meetups, show-up rates, and follow-up into pipeline. For launches, see launch. For joint webinars, see co-marketing. For community programs, see community-marketing. For podcasts, see public-relations. For event emails, see emails.",
+      "path": "references/sources/marketingskills/skills/events/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/events/SKILL.md",
+      "sha256": "c563896eb4479cd13bea43fe89920e965400b6f994f81bc3703ea1a813ac3247",
+      "zh": "策划活动获客与跟进"
+    },
+    "ads": {
+      "id": "ads",
+      "name": "ads",
+      "desc": "When the user wants to plan, run, or fix paid ads on Google, Meta, and LinkedIn, or asks a judgement call on them: are ads worth it, which channel or budget split, why CPA rose, kill or keep a campaign. End with facts, hypotheses, and missing data; label unavailable inputs MISSING instead of estimating. For ad copy, see ad-creative. For pixels and CAPI, see conversion-tracking. For landing pages, see cro.",
+      "path": "references/sources/marketingskills/skills/ads/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/ads/SKILL.md",
+      "sha256": "abed4d7d69b8dad1de41927d36ae249c63fe86aa302cbda5113c0c4ab4263f79",
+      "zh": "规划与优化付费投放"
+    },
+    "ad-creative": {
+      "id": "ad-creative",
+      "name": "ad-creative",
+      "desc": "When the user wants to write or judge ad creative, or asks which ad, hook, or angle to run or kill: headlines, primary text, and variations for Google, Meta, LinkedIn, and TikTok, fresh angles when creative fatigues. Test hypotheses name the metric, comparison, and expected direction. No AI tells like 'it's not X, it's Y'. For campaign strategy, see ads. For landing pages, see copywriting.",
+      "path": "references/sources/marketingskills/skills/ad-creative/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/ad-creative/SKILL.md",
+      "sha256": "3bbdaafe85e7be03eb8501919eafbc804dbf6052c1597d3afff7756c1d72667f",
+      "zh": "生成可测试的广告创意"
+    },
+    "influencer-marketing": {
+      "id": "influencer-marketing",
+      "name": "influencer-marketing",
+      "desc": "When the user wants creator, influencer, or ambassador partnerships, or asks which creators fit, what to pay, which rights to buy, or whether a sponsorship worked: vetting, contracts, briefs, UGC, newsletter and podcast sponsorships, FTC disclosure. For affiliate payouts, see referrals. For community advocacy, see community-marketing. For creator content as ads, see ad-creative.",
+      "path": "references/sources/marketingskills/skills/influencer-marketing/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/influencer-marketing/SKILL.md",
+      "sha256": "367e9ee7a88ca9280206858e76d795dc89eaea2a2ddaa6786ece8a089c11e4e5",
+      "zh": "选择创作者并评估合作效果"
+    },
+    "community-marketing": {
+      "id": "community-marketing",
+      "name": "community-marketing",
+      "desc": "When the user wants to build or grow an online community, or asks whether a community is worth it, where to host it, or why members stay quiet: Discord, Slack, forums, participation, community-led growth, advocates. For referral programs, see referrals. For creator partnerships, see influencer-marketing.",
+      "path": "references/sources/marketingskills/skills/community-marketing/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/community-marketing/SKILL.md",
+      "sha256": "d5b84b418c3010bee36a19bb4ad45b8b39aebcc96d98c65ae8bd68e3b13333c5",
+      "zh": "建设社区参与和反馈机制"
+    },
+    "referrals": {
+      "id": "referrals",
+      "name": "referrals",
+      "desc": "When the user wants referral and affiliate programs or word of mouth, or asks what to reward, how much to pay, or which loop to start with: refer-a-friend incentives, commissions and payouts, partner programs, 'made with' badges, review campaigns. For launch virality, see launch. For creator deals, see influencer-marketing.",
+      "path": "references/sources/marketingskills/skills/referrals/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/referrals/SKILL.md",
+      "sha256": "788d7a6f70142e069afe00bfc345cce6965e3e91d7aca0192b080552891aa523",
+      "zh": "设计推荐奖励与传播流程"
+    },
+    "lead-magnets": {
+      "id": "lead-magnets",
+      "name": "lead-magnets",
+      "desc": "When the user wants to plan or improve a lead magnet, or asks what to give away for emails or how much to ask in return (gating, form fields): checklists, templates, ebooks, gated guides, content upgrades. For interactive tools, see free-tools. For the follow-up sequence, see emails. For popups that capture emails, see popups.",
+      "path": "references/sources/marketingskills/skills/lead-magnets/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/lead-magnets/SKILL.md",
+      "sha256": "858b6c0735e7c79b191416344eb3bb57cfdc2743ddc9d50b4bcbef820a9e98e1",
+      "zh": "设计换取潜客联系意愿的内容"
+    },
+    "free-tools": {
+      "id": "free-tools",
+      "name": "free-tools",
+      "desc": "When the user wants to plan or build a free tool as marketing, or asks whether a tool idea is worth building or which one to pick: calculators, graders, generators, and other interactive tools for leads, SEO, and links. For downloadable lead magnets, see lead-magnets.",
+      "path": "references/sources/marketingskills/skills/free-tools/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/free-tools/SKILL.md",
+      "sha256": "cf89ce128533b0029bcb99270b2e7c9ed13746e11dfd7abb572f9667b2818040",
+      "zh": "设计获客用免费工具"
+    },
+    "seo-audit": {
+      "id": "seo-audit",
+      "name": "seo-audit",
+      "desc": "When the user wants to audit or diagnose SEO, or asks why traffic dropped, a page won't rank, or whether a setup like canonicals, hreflang, or redirects is right: technical SEO, indexing, Google updates, on-page and titles, Core Web Vitals, local SEO. Start here when someone just says their SEO is bad. For pages at scale, see programmatic-seo. For structured data, see schema. For AI search, see ai-seo.",
+      "path": "references/sources/marketingskills/skills/seo-audit/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/seo-audit/SKILL.md",
+      "sha256": "edad34843d2c97a2380c4ee421efb6ce98414bf52660dbe8cec49b8b73acc393",
+      "zh": "审查搜索收录与排名障碍"
+    },
+    "site-architecture": {
+      "id": "site-architecture",
+      "name": "site-architecture",
+      "desc": "When the user wants to plan or restructure a website, or asks which pages they need or where something belongs: hierarchy, navigation, URL structure, internal linking, website builders and migrations. Not XML sitemaps (see seo-audit). For structured data, see schema.",
+      "path": "references/sources/marketingskills/skills/site-architecture/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/site-architecture/SKILL.md",
+      "sha256": "0c71871aea12689012b4d85aaaf24a4752d3f0e985603c4992d5c0bf0fce57ea",
+      "zh": "规划站点结构与内部链接"
+    },
+    "schema": {
+      "id": "schema",
+      "name": "schema",
+      "desc": "When the user wants to add, fix, or validate schema markup (JSON-LD), or asks which type fits a page or whether some markup is allowed: product, review, recipe, FAQ, rich result eligibility (FAQ no longer earns Google rich results), Search Console errors. For broader SEO, see seo-audit. For AI search, see ai-seo.",
+      "path": "references/sources/marketingskills/skills/schema/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/schema/SKILL.md",
+      "sha256": "673fa46bad2f2d4649955c473b11778bd2d258317662df670b31414e28725a84",
+      "zh": "生成搜索结构化标记"
+    },
+    "programmatic-seo": {
+      "id": "programmatic-seo",
+      "name": "programmatic-seo",
+      "desc": "When the user wants SEO pages at scale from templates and data, or asks whether a page set will rank or look thin: location, integration, comparison, directory, and '[X] for [Y]' pages, each useful rather than thin. For SEO audits, see seo-audit. For content planning, see content-strategy.",
+      "path": "references/sources/marketingskills/skills/programmatic-seo/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/programmatic-seo/SKILL.md",
+      "sha256": "f59dcb0892fc615d6df8f6debedd6b08de910ad220d5ec4a18e62f076a934c00",
+      "zh": "规划可规模化的搜索页面"
+    },
+    "aso": {
+      "id": "aso",
+      "name": "aso",
+      "desc": "When the user wants to audit or optimize an App Store or Google Play listing, or asks which title, keywords, or screenshots to pick or why downloads are low: subtitle, description, ratings, and comparing listings with competitors.",
+      "path": "references/sources/marketingskills/skills/aso/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/aso/SKILL.md",
+      "sha256": "c70e259ce5b7e71399a331ac1c8a7bf5985d5c5342b3dc1d03b37fcfa6b5ff55",
+      "zh": "优化应用商店展示和转化"
+    },
+    "social": {
+      "id": "social",
+      "name": "social",
+      "desc": "When the user wants organic social content for LinkedIn, X, Instagram, TikTok, or Facebook, or asks what to post, which format to favor, or from which account: posts, threads, carousels, short-form video scripts, calendars, build-in-public posts from commits, listening. No AI tells like 'it's not X, it's Y' or broetry. For content strategy, see content-strategy. For paid ads, see ad-creative. For press, see public-relations.",
+      "path": "references/sources/marketingskills/skills/social/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/social/SKILL.md",
+      "sha256": "3c367239039ca820a4b5915d6c669a155bb4d52ac303cd34fac5d0795e7517a5",
+      "zh": "设计社交渠道内容"
+    },
+    "content-strategy": {
+      "id": "content-strategy",
+      "name": "content-strategy",
+      "desc": "When the user wants to plan content, or asks which topic or piece to prioritize, what to write about, or why posts bring no customers: topic clusters, editorial calendars, roadmaps tied to customers and search. For writing pieces, see copywriting. For SEO audits, see seo-audit. For social content, see social.",
+      "path": "references/sources/marketingskills/skills/content-strategy/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/content-strategy/SKILL.md",
+      "sha256": "6bc1c8df711a6c9466e312dca9c99a895bd76989b7a52d0f39dca340db3bc5f5",
+      "zh": "决定内容主题和分发组合"
+    },
+    "copywriting": {
+      "id": "copywriting",
+      "name": "copywriting",
+      "desc": "When the user wants to write or rewrite page copy (homepage, landing, pricing, feature), or asks which headline, promise, or message to lead with. Diagnoses the input first (blank brief, real voice, or point edit) and changes only what it calls for. Claims must be supportable; a declined claim names the evidence that would unlock it. No AI tells like 'it's not X, it's Y' or 'no X, no Y, no Z'. For editing, see copy-editing. For emails, see emails. For the offer, see offers.",
+      "path": "references/sources/marketingskills/skills/copywriting/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/copywriting/SKILL.md",
+      "sha256": "86dc0466493e8ac59ab17a8f28fd1403e2a322921ed2a8f96b2d0c442ad99d01",
+      "zh": "撰写面向转化的营销文案"
+    },
+    "content-humanizer": {
+      "id": "content-humanizer",
+      "name": "content-humanizer",
+      "desc": "Make a draft sound less like AI: fix generic, robotic text with rhythm, specifics, personality and brand voice. Use whenever the user says copy sounds like ChatGPT, bland or stiff, or not like them.",
+      "path": "references/sources/claude-skills/marketing-skill/skills/content-humanizer/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/marketing-skill/skills/content-humanizer/SKILL.md",
+      "sha256": "6350b643b7a8aa8bbf713105ee61c069ab419448461311b74ba14afe2ecf189e",
+      "zh": "去 AI 味：用具体事实和自然语气改写套话"
+    },
+    "emails": {
+      "id": "emails",
+      "name": "emails",
+      "desc": "When the user wants to create or improve automated email sequences, or asks what to send, when, or whether an email or flow is working: welcome, onboarding, nurture, and win-back flows. No AI tells like 'it's not X, it's Y', 'no X, no Y, no Z' lists, or fake 'Re:' subject lines. For cold outreach, see cold-email. For in-app onboarding, see onboarding. For texts, see sms.",
+      "path": "references/sources/marketingskills/skills/emails/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/emails/SKILL.md",
+      "sha256": "5687682141748000282747e85ef6501c0ad4c78731e138afc9b712ebb91ae750",
+      "zh": "设计邮件序列与触达时机"
+    },
+    "video": {
+      "id": "video",
+      "name": "video",
+      "desc": "When the user wants to create video with AI tools or code, or asks which approach to use (screen recording, AI avatar, generated, or templated) or how to make videos repeatably: product demos, AI generation (Veo, Sora, HeyGen), programmatic video with Remotion. For what to post, see social. For video ads, see ad-creative.",
+      "path": "references/sources/marketingskills/skills/video/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/video/SKILL.md",
+      "sha256": "cbc6483db9cd316dc49166c8ab03340c1a1fbac5ff0101b61bd2131f91aaebdd",
+      "zh": "策划营销视频与分发"
+    },
+    "marketing-psychology": {
+      "id": "marketing-psychology",
+      "name": "marketing-psychology",
+      "desc": "When the user wants to apply psychology to marketing, or asks why buyers behave or value things as they do, or whether a persuasion tactic is honest: biases, mental models, anchoring, social proof, scarcity, loss aversion, framing. For a page, see cro. For pricing tactics, see pricing. For copy, see copywriting.",
+      "path": "references/sources/marketingskills/skills/marketing-psychology/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/marketing-psychology/SKILL.md",
+      "sha256": "755efd52954ecbbddc6fd0fe07cfa4999b63544bf716f2b5587a50c6f26228c0",
+      "zh": "用行为心理解释购买决策"
+    },
+    "cro": {
+      "id": "cro",
+      "name": "cro",
+      "desc": "When the user wants more conversions from a page or form, or asks why a page isn't converting, what to change first, or whether to add or remove a field or element: landing and pricing pages, lead forms, or a URL shared for feedback. For signup flows, see signup. For activation, see onboarding. For popups, see popups. For running the test, see ab-testing.",
+      "path": "references/sources/marketingskills/skills/cro/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/cro/SKILL.md",
+      "sha256": "0f8588aba125de102498ca3bbaa0151c8ebffa0a7ad85c14d992ef16db02fb2d",
+      "zh": "诊断落地页与表单转化"
+    },
+    "signup": {
+      "id": "signup",
+      "name": "signup",
+      "desc": "When the user wants better signup, registration, and trial start flows, or asks which fields or steps to cut or whether to require a card: SSO and drop-off before an account exists. For what happens after signup, see onboarding. For lead forms that don't create an account, see cro.",
+      "path": "references/sources/marketingskills/skills/signup/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/signup/SKILL.md",
+      "sha256": "5d54fb404a0eeb04043899230ad15a72b327a1075cc2c220838caf0cdf6ec3b7",
+      "zh": "减少注册流程流失"
+    },
+    "onboarding": {
+      "id": "onboarding",
+      "name": "onboarding",
+      "desc": "When the user wants better onboarding and activation, or asks why new users don't stick or what the first session should do: first-run experience, aha moments, checklists, empty states, time to value. For the signup flow itself, see signup. For onboarding emails, see emails.",
+      "path": "references/sources/marketingskills/skills/onboarding/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/onboarding/SKILL.md",
+      "sha256": "3118533cd06066715b6fa3c000e5d2994ad1c36b73cbf82501a9711381514880",
+      "zh": "帮助新客户完成首次价值体验"
+    },
+    "paywalls": {
+      "id": "paywalls",
+      "name": "paywalls",
+      "desc": "When the user wants to create or improve in-app paywalls and upgrade moments, or asks when or how hard to ask free users to pay (after they've seen value): upgrade screens, upsell modals, feature gates, limit-reached and trial-expired screens, mobile subscription paywalls. For public pricing pages, see cro. For pricing decisions, see pricing.",
+      "path": "references/sources/marketingskills/skills/paywalls/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/paywalls/SKILL.md",
+      "sha256": "46edbabdf67b663e59d8fa283b4aeb0f3cbff99b0216ae52aa6fd607477faadf",
+      "zh": "优化升级入口与付费墙"
+    },
+    "popups": {
+      "id": "popups",
+      "name": "popups",
+      "desc": "When the user wants to create or improve popups, modals, slide-ins, sticky bars, and banners, or asks whether one will help or annoy and when to show it: exit intent, email capture, scroll and time triggers, announcements. For forms and pages outside popups, see cro.",
+      "path": "references/sources/marketingskills/skills/popups/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/popups/SKILL.md",
+      "sha256": "fbbe47118ac0b9a18b3b07cc72bc6610c6a4f1c4c4817739c1e798bd8710ff64",
+      "zh": "设计弹窗的时机与内容"
+    },
+    "offers": {
+      "id": "offers",
+      "name": "offers",
+      "desc": "When the user wants to design or improve the offer itself, or asks why it isn't selling or how to add urgency honestly: value stacking, bonuses, guarantees, scarcity, payment plans, upsells. Best for services, courses, coaching, and high-ticket B2B; for self-serve SaaS, read pricing first. For price and tiers, see pricing. For the page, see copywriting. For the launch, see launch. For sales collateral, see sales-enablement.",
+      "path": "references/sources/marketingskills/skills/offers/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/offers/SKILL.md",
+      "sha256": "d5de835c90e65c9fc117508760ca6df5d8d0ab546ffe6933beab089c944ba71c",
+      "zh": "设计交易条件与优惠组合"
+    },
+    "pricing": {
+      "id": "pricing",
+      "name": "pricing",
+      "desc": "When the user wants to set pricing and packaging, or asks what to charge, whether to raise prices, or how to move existing customers: tiers, value metrics, per-seat vs usage, freemium and trials, willingness to pay, pricing pages. For in-app upgrade screens, see paywalls. For offers on services, courses, and high-ticket B2B, see offers.",
+      "path": "references/sources/marketingskills/skills/pricing/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/pricing/SKILL.md",
+      "sha256": "4f0a939631eca1b4bbee22bf6bc88b35ac06c33bfa8e4e837c8767a4bf6f5b54",
+      "zh": "将套餐价值转化为定价页面和价格试验"
+    },
+    "ab-testing": {
+      "id": "ab-testing",
+      "name": "ab-testing",
+      "desc": "When the user wants to plan, run, or read A/B tests, or asks a judgement call on one: is the result real, can we stop, which version won, is this worth testing at all: sample size, duration, significance, hypotheses, and experiment backlogs. For tracking setup, see analytics. For page-level conversion fixes, see cro.",
+      "path": "references/sources/marketingskills/skills/ab-testing/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/ab-testing/SKILL.md",
+      "sha256": "938a9a9246c6b05657f509e7ab181f1c961dc14f9dcb5d452c574d3e44a39be2",
+      "zh": "设计对照实验"
+    },
+    "conversion-tracking": {
+      "id": "conversion-tracking",
+      "name": "conversion-tracking",
+      "desc": "When the user wants to set up, audit, or fix conversion tracking to Google Ads, Meta, GA4, LinkedIn, and TikTok, or asks why conversions are missing or doubled: GTM, pixels, CAPI, Enhanced Conversions, offline imports. Fire on confirmed success, not the submit click; verify a test conversion arrives; diagnose before changing; offer free paths and disclose partner tools. For tracking plans, see analytics. For attribution, see attribution. For bidding, see ads.",
+      "path": "references/sources/marketingskills/skills/conversion-tracking/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/conversion-tracking/SKILL.md",
+      "sha256": "84a702f8583d468e039c6b53201b4189e895dde30a40883bffdee37f65d704b9",
+      "zh": "定义并校验转化事件"
+    },
+    "attribution": {
+      "id": "attribution",
+      "name": "attribution",
+      "desc": "When the user wants to work out which marketing drives revenue, or asks whether a channel is really working, which numbers to trust, or how to credit podcasts and dark social: attribution models, platforms that over-claim, MMM, incrementality and holdout tests, self-reported attribution. For tracking and UTMs, see analytics. For pixels and CAPI, see conversion-tracking. For CRM revenue, see revops. For AI search blind spots, see ai-seo.",
+      "path": "references/sources/marketingskills/skills/attribution/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/attribution/SKILL.md",
+      "sha256": "b8db5580db926f92b64a6d4d3ae5f17eb375249bf238a11c7a0809c84c58795e",
+      "zh": "判断各渠道对转化的贡献"
+    },
+    "analytics": {
+      "id": "analytics",
+      "name": "analytics",
+      "desc": "When the user wants to set up or audit analytics, or asks whether a metric or number is calculated right, what to track, or how to name events: tracking plans, GA4, GTM, Mixpanel, PostHog, UTMs. Rate metrics divide matching closed windows, never full-period spend by partial-period results. For conversions in ad platforms, see conversion-tracking. For attribution or platforms that over-claim, see attribution. For tests, see ab-testing.",
+      "path": "references/sources/marketingskills/skills/analytics/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/analytics/SKILL.md",
+      "sha256": "45f0d00c1f8ea9ef836882a1ebbc1dadca12f96db8e921c4252e34a4126c903a",
+      "zh": "设计营销数据采集与分析"
+    },
+    "prospecting": {
+      "id": "prospecting",
+      "name": "prospecting",
+      "desc": "When the user wants to find and qualify prospects for outbound, or asks who to target first, which signal to prioritize, or where to spot buyers with the problem: buying signals, enrichment, verification, account research. Verify emails before a sequence, never scrape LinkedIn: define audiences in Sales Navigator and pull contacts from licensed data. For outreach, see cold-email. For competitor research, see competitor-profiling.",
+      "path": "references/sources/marketingskills/skills/prospecting/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/prospecting/SKILL.md",
+      "sha256": "dd9343bdcc3dadd059c4155e818778377bd62f3e704322d1073d9f06656d4315",
+      "zh": "寻找匹配的潜在客户"
+    },
+    "lead-triage": {
+      "id": "lead-triage",
+      "name": "lead-triage",
+      "desc": "Score and route an inbound lead, or rank a backlog of leads, against your ICP and qualification framework, then recommend a priority and next action. Use when the user asks \"triage this lead\", \"triage my leads\", \"rank my lead backlog\", \"is [company] a good lead\", \"qualify [lead]\", or pastes or uploads lead info.",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/lead-triage/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/lead-triage/SKILL.md",
+      "sha256": "7fa6ee9b73ffbdbe6989f3396738534d9077814054d02c1a25b3758e9b3b806c",
+      "zh": "筛选并安排线索优先级"
+    },
+    "account-research": {
+      "id": "account-research",
+      "name": "account-research",
+      "desc": "Research a target company and optionally a specific contact - company overview, recent news, likely priorities, and fit against your ICP. Cross-references existing CRM records. Use when the user asks to \"research [company]\", \"look into [company]\", \"prospect research on [company]\", \"look up [person]\", \"intel on [prospect]\", \"who is [person] at [company]\", or \"tell me about [company]\" when the company is a prospect rather than an existing account.",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/account-research/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/account-research/SKILL.md",
+      "sha256": "1f5e40ac7cea793dff344f331be95bf2bd6fd8e03c6734aedae2d514707ec59b",
+      "zh": "整理目标客户背景"
+    },
+    "account-tiering": {
+      "id": "account-tiering",
+      "name": "account-tiering",
+      "desc": "Score and tier a list of accounts (or your full book) against ICP fit and engagement signals to prioritize where to spend time. Use when the user asks to \"tier my accounts\", \"prioritize my book\", \"which accounts should I focus on\", or \"score these accounts\".",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/account-tiering/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/account-tiering/SKILL.md",
+      "sha256": "9013610cb11d278af18ea53df942e6d4f874c56087bb9b32ec38e8f6a3efb22a",
+      "zh": "按价值与机会划分客户等级"
+    },
+    "call-prep": {
+      "id": "call-prep",
+      "name": "call-prep",
+      "desc": "Pre-call brief for an upcoming meeting - attendees, account history, prior call context from transcripts, open opportunity status, and suggested discovery questions. Use when the user asks \"prep me for [meeting/company]\", \"call prep [company]\", \"I'm meeting with [company], prep me\", \"get me ready for [meeting]\", or \"what do I need to know before my [time] call\".",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/call-prep/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/call-prep/SKILL.md",
+      "sha256": "4f772694f3f8fc1ef0d8bb8bb868f6c44661160f57c99dd8c9ebf97f7fe2a947",
+      "zh": "准备销售通话目标和问题"
+    },
+    "handle-objection": {
+      "id": "handle-objection",
+      "name": "handle-objection",
+      "desc": "Work through a live objection or competitive threat - what's really being said, the response that has worked before, and the proof points to use, grounded in your own win/loss history and customer quotes. Use when the user says \"they said we're too expensive\", \"how do I respond to [objection]\", \"[competitor] is in the deal\", \"help me handle this pushback\", or pastes an objection from an email or call.",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/handle-objection/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/handle-objection/SKILL.md",
+      "sha256": "88d2da6cd89218459271ab6159ef981b88b6f763148b3955b56277d30acc4e19",
+      "zh": "回应客户购买异议"
+    },
+    "sales-enablement": {
+      "id": "sales-enablement",
+      "name": "sales-enablement",
+      "desc": "When the user wants sales collateral, or asks what to give a champion or rep, or how to answer an objection or make the case: decks, one-pagers, objection handling, demo scripts, talk tracks, battle cards, proposals, win-loss. For public comparison pages, see competitors. For buyer research, see customer-research. For website copy, see copywriting. For cold emails, see cold-email. For the offer, see offers.",
+      "path": "references/sources/marketingskills/skills/sales-enablement/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/sales-enablement/SKILL.md",
+      "sha256": "6869bac9c9f5e404bc01de85800f8d90ccfb2c06d25fb2bafe1d3d4f2e61fc36",
+      "zh": "为销售团队准备材料"
+    },
+    "deal-review": {
+      "id": "deal-review",
+      "name": "deal-review",
+      "desc": "Deep-dive on a single opportunity - signal-adjusted health score, risks, gaps in qualification, and recommended next actions. Use when the user asks \"review the [account] deal\", \"deal review on [opp]\", \"is [opp] going to close\", or \"what's the risk on [deal]\".",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/deal-review/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/deal-review/SKILL.md",
+      "sha256": "a78f8382d1f65ae57f8468bd4c76c2ccfec2a7d0f47ac15db44b31aa53568700",
+      "zh": "核查交易进展的证据"
+    },
+    "close-plan": {
+      "id": "close-plan",
+      "name": "close-plan",
+      "desc": "Build the business case and mutual action plan for a deal - the why-buy/why-now story, the ROI framing, and the dated step-by-step path to signature shared with the customer. Use when the user says \"build a close plan for [deal]\", \"mutual action plan for [account]\", \"business case for [opp]\", or \"what's the path to signature\".",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/close-plan/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/close-plan/SKILL.md",
+      "sha256": "4fb19d3822e79d94c60f1428f69a89ed9caebe4f72600e32bcd1b096f2c00a62",
+      "zh": "与客户约定成交步骤"
+    },
+    "pipeline-review": {
+      "id": "pipeline-review",
+      "name": "pipeline-review",
+      "desc": "Stage-by-stage pipeline health check - coverage, aging, conversion, and at-risk deals - from CRM opportunity data. Use when the user asks \"review my pipeline\", \"pipeline health\", \"where's my pipeline stuck\", \"weekly pipeline review\", \"which deals should I focus on this week\", \"any stale or stuck deals\", \"which deals have past close dates\", \"which deals are single-threaded\", or \"check my pipeline coverage against my number\".",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/pipeline-review/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/pipeline-review/SKILL.md",
+      "sha256": "36baa5f9c9a64a4c9eb036676ebe6af7a2ebd168e4f21ac1bf3c385ad2e47028",
+      "zh": "按阶段检查销售机会"
+    },
+    "forecast": {
+      "id": "forecast",
+      "name": "forecast",
+      "desc": "Generate the commit / best-case / pipeline narrative for a forecast call or a 1:1 with your manager - what's closing, what's at risk, what changed since last time. Use when the user asks \"write my forecast\", \"forecast narrative\", \"prep for forecast call\", \"prep for my quarterly forecast call\", \"which deals should I commit vs. call upside\", \"forecast from this pipeline export\", or \"prep for my 1:1 with my manager\".",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/forecast/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/forecast/SKILL.md",
+      "sha256": "23b355ac3f994c729bf6271b7e0533dcf1ae2f4bd51104696624ef009cace37e",
+      "zh": "评估预测金额和时间"
+    },
+    "deal-desk": {
+      "id": "deal-desk",
+      "name": "deal-desk",
+      "desc": "Use before closing a deal that needs a discount beyond AE authority, has a redlined MSA or unclear per-deal economics. Scores it with deal_scorer.py, names approvers with discount_approval_router.py and flags risky terms with terms_redliner.py. Never auto-approves.",
+      "path": "references/sources/claude-skills/commercial/skills/deal-desk/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/commercial/skills/deal-desk/SKILL.md",
+      "sha256": "d8ff6f5c501f230428134cefded66f035f999e3f9f99eefd1c9edb9fd1f79b7c",
+      "zh": "核查折扣与例外报价"
+    },
+    "rfp-responder": {
+      "id": "rfp-responder",
+      "name": "rfp-responder",
+      "desc": "Use when an RFP, RFI, RFQ or security or vendor questionnaire arrives. Parses mandatory vs weighted requirements with rfp_parser.py, drafts proof-point answers with response_drafter.py and estimates win chance with winrate_predictor.py.",
+      "path": "references/sources/claude-skills/commercial/skills/rfp-responder/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/commercial/skills/rfp-responder/SKILL.md",
+      "sha256": "7eaaf958a00abbb7cdf13ab53236e3dbe0c246798adc7355b4113ef9011123bc",
+      "zh": "编写招标需求响应材料"
+    },
+    "cohort-analysis": {
+      "id": "cohort-analysis",
+      "name": "cohort-analysis",
+      "desc": "Perform cohort analysis on user engagement data — retention curves, feature adoption trends, and segment-level insights. Use when analyzing user retention by cohort, studying feature adoption over time, investigating churn patterns, or identifying engagement trends.",
+      "path": "references/sources/pm-skills/pm-data-analytics/skills/cohort-analysis/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-data-analytics/skills/cohort-analysis/SKILL.md",
+      "sha256": "bd721a429e58c71a1a488ac1e89ba2bcbb9e179cb9c0b5eac44a3c3b3e9fdb15",
+      "zh": "按同期客群比较留存表现"
+    },
+    "customer-health": {
+      "id": "customer-health",
+      "name": "customer-health",
+      "desc": "Health check on a customer account and QBR-ready prep - relationship strength, engagement trend, risk signals, value delivered, and the agenda that makes the review worth their time. Use when the user asks \"how healthy is [account]\", \"customer health check\", \"prep the [account] QBR\", \"business review prep\", or \"are we at risk with [customer]\".",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/customer-health/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/customer-health/SKILL.md",
+      "sha256": "dcfcae0bce25de315e575a783c66fc7509d479cab4045d5f9ce53831ed2363d1",
+      "zh": "识别客户关系和使用风险"
+    },
+    "renewal-radar": {
+      "id": "renewal-radar",
+      "name": "renewal-radar",
+      "desc": "Upcoming renewals with timing, risk, and uplift potential - and the renewal opportunity records to keep them honest. Use when the user asks \"what renewals are coming up\", \"renewal radar\", \"is [account] going to renew\", \"prep the [account] renewal\", or \"which renewals are at risk\".",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/renewal-radar/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/renewal-radar/SKILL.md",
+      "sha256": "8543ca43deb5c9af9725975d23de2ca2ed456c3afd298f8189edaecc7432b92d",
+      "zh": "筛出将到期合同与续约风险"
+    },
+    "churn-prevention": {
+      "id": "churn-prevention",
+      "name": "churn-prevention",
+      "desc": "When the user wants to reduce churn, or asks why customers cancel, whether to offer a discount or pause: cancellation flows, exit surveys, save offers, dunning and failed-payment recovery. For win-back emails, see emails. For in-app upgrade screens, see paywalls.",
+      "path": "references/sources/marketingskills/skills/churn-prevention/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/churn-prevention/SKILL.md",
+      "sha256": "ddfa4dda517edade4e5b49254fff037a037ed83d66cf7f4e84a676495823eea6",
+      "zh": "设计取消挽回和预防措施"
+    },
+    "expansion-whitespace": {
+      "id": "expansion-whitespace",
+      "name": "expansion-whitespace",
+      "desc": "Find the expansion whitespace in an account or a book - what they own vs. what they could own, the evidence for each play, and the open opps to create. Use when the user asks \"what's the whitespace at [account]\", \"where can I expand [account]\", \"upsell opportunities in my book\", or \"which customers should I be growing\".",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/expansion-whitespace/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/expansion-whitespace/SKILL.md",
+      "sha256": "42103b1c1b6eae0c742ce78e83608fee464df6e725ffa99f0b0607c61cc18ea4",
+      "zh": "寻找既有客户的增购空间"
+    },
+    "user-segmentation": {
+      "id": "user-segmentation",
+      "name": "user-segmentation",
+      "desc": "Segment users from feedback data based on behavior, JTBD, and needs. Identifies at least 3 distinct user segments. Use when segmenting a user base, analyzing diverse user feedback, or building a segmentation model.",
+      "path": "references/sources/pm-skills/pm-market-research/skills/user-segmentation/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-market-research/skills/user-segmentation/SKILL.md",
+      "sha256": "d91f745c9520e6a31c07e37c14bfa01e7982570e30a398be71cf324ac93be9c8",
+      "zh": "按行为或需求对用户分群"
+    },
+    "growth-loops": {
+      "id": "growth-loops",
+      "name": "growth-loops",
+      "desc": "Identify growth loops (flywheels) for sustainable traction. Evaluates 5 loop types: Viral, Usage, Collaboration, User-Generated, and Referral. Use when designing growth mechanisms, building product-led traction, or understanding how growth loops work.",
+      "path": "references/sources/pm-skills/pm-go-to-market/skills/growth-loops/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-go-to-market/skills/growth-loops/SKILL.md",
+      "sha256": "ce93f8c3f3a5db135aff02c5859bc153b9bd376b93f97a1c68e5ca498cf53557",
+      "zh": "规划可持续的增长循环"
+    },
+    "north-star-metric": {
+      "id": "north-star-metric",
+      "name": "north-star-metric",
+      "desc": "Define a North Star Metric and 3-5 supporting input metrics that form a metrics constellation. Classify the business game (Attention, Transaction, Productivity) and validate against 7 criteria for an effective North Star. Use when choosing a North Star Metric, setting up a metrics framework, learning about the North Star Framework, or deciding what to measure.",
+      "path": "references/sources/pm-skills/pm-marketing-growth/skills/north-star-metric/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-marketing-growth/skills/north-star-metric/SKILL.md",
+      "sha256": "00242397486a88bb7e91a1d6c99e29fd51bdc9a1cd5def9771988fb40c195fb8",
+      "zh": "选择反映核心价值的指标"
+    },
+    "ticket-triage": {
+      "id": "ticket-triage",
+      "name": "ticket-triage",
+      "desc": "Triage and prioritize a support ticket or customer issue. Use when a new ticket comes in and needs categorization, assigning P1-P4 priority, deciding which team should handle it, or checking whether it's a duplicate or known issue before routing.",
+      "path": "references/sources/knowledge-work-plugins/customer-support/skills/ticket-triage/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/customer-support/skills/ticket-triage/SKILL.md",
+      "sha256": "d0e5e95443e358ad2a74811b196071d10807ca95aa20351ab5760feeecee1294",
+      "zh": "判定工单优先级与归属"
+    },
+    "customer-escalation": {
+      "id": "customer-escalation",
+      "name": "customer-escalation",
+      "desc": "Package an escalation for engineering, product, or leadership with full context. Use when a bug needs engineering attention beyond normal support, multiple customers report the same issue, a customer is threatening to churn, or an issue has sat unresolved past its SLA.",
+      "path": "references/sources/knowledge-work-plugins/customer-support/skills/customer-escalation/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/customer-support/skills/customer-escalation/SKILL.md",
+      "sha256": "90c33574a41371e8e116aaf40237141adcd6075ef8bcb9de993de2b543867b3e",
+      "zh": "升级复杂客户问题"
+    },
+    "draft-response": {
+      "id": "draft-response",
+      "name": "draft-response",
+      "desc": "Draft a professional customer-facing response tailored to the situation and relationship. Use when answering a product question, responding to an escalation or outage, delivering bad news like a delay or won't-fix, declining a feature request, or replying to a billing issue.",
+      "path": "references/sources/knowledge-work-plugins/customer-support/skills/draft-response/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/customer-support/skills/draft-response/SKILL.md",
+      "sha256": "1a201228b75a98fc3b5d45090cb7443d50df204b2ee748bfc8970790a64f0026",
+      "zh": "根据事实起草客服回复"
+    },
+    "kb-article": {
+      "id": "kb-article",
+      "name": "kb-article",
+      "desc": "Draft a knowledge base article from a resolved issue or common question. Use when a ticket resolution is worth documenting for self-service, the same question keeps coming up, a workaround needs to be published, or a known issue should be communicated to customers.",
+      "path": "references/sources/knowledge-work-plugins/customer-support/skills/kb-article/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/customer-support/skills/kb-article/SKILL.md",
+      "sha256": "cfc300f5ecc5128910a8ff04514d565a45ca9178bf1dc2a40cc40e2ce4db9292",
+      "zh": "将常见问题写成知识库文章"
+    },
+    "customer-research": {
+      "id": "customer-research",
+      "name": "customer-research",
+      "desc": "When the user wants to run or synthesize customer research, or asks what customer quotes, reviews, or feedback really mean, what is safe to conclude, and what to ask next: interviews, surveys, voice of customer, personas, JTBD, mining Reddit and reviews. For copy from research, see copywriting. For acting on it in pages, see cro.",
+      "path": "references/sources/marketingskills/skills/customer-research/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/customer-research/SKILL.md",
+      "sha256": "d12b522641884acb385f7a919138b5bfbe4ad9b070bd13a470923eebaa682a4f",
+      "zh": "研究客户的购买动机和语言"
+    },
+    "competitive-intelligence": {
+      "id": "competitive-intelligence",
+      "name": "competitive-intelligence",
+      "desc": "Competitive analysis two ways - the in-deal play against a named competitor, and win/loss patterns, competitor mentions, and battlecards across the book. Use when the user asks \"competitive intel\", \"research competitors\", \"how do we compare to [competitor]\", \"what's new with [competitor]\", \"battlecard for [competitor]\", \"how do we beat [competitor]\", \"what's the play against [competitor] in [deal]\", \"where are we losing to [competitor]\", \"win/loss patterns\", \"competitive analysis\", \"refresh the battlecards\", or on a weekly schedule.",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/competitive-intelligence/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/competitive-intelligence/SKILL.md",
+      "sha256": "aa0041f9133e8901fcdd4768b907c5c8f50c4f15edcce8c04b0d3a8a9a6e6811",
+      "zh": "跟踪竞争对手变化"
+    },
+    "competitive-battlecard": {
+      "id": "competitive-battlecard",
+      "name": "competitive-battlecard",
+      "desc": "Create sales-ready competitive battlecards comparing your product against a specific competitor — positioning, feature comparison, objection handling, and win/loss patterns. Use when preparing sales teams, creating competitive materials, or responding to 'why not competitor X?'",
+      "path": "references/sources/pm-skills/pm-go-to-market/skills/competitive-battlecard/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-go-to-market/skills/competitive-battlecard/SKILL.md",
+      "sha256": "89a82a58675d7c82f9d9d2efc7ab81ca0597264804d4ab722ae354d767ebac21",
+      "zh": "制作销售竞品对照卡"
+    },
+    "competitor-profiling": {
+      "id": "competitor-profiling",
+      "name": "competitor-profiling",
+      "desc": "When the user wants to research competitors into dated profiles, or asks what a rival charges, claims, or is doing, or whether a conclusion about them is fair: positioning, pricing, features, reviews, SEO, observed facts kept apart from inference. For comparison pages, see competitors. For battle cards, see sales-enablement. For accounts you sell to, see prospecting. For how a competitor grew, see reverse-engineer-marketing.",
+      "path": "references/sources/marketingskills/skills/competitor-profiling/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/competitor-profiling/SKILL.md",
+      "sha256": "ebe96d2a92094b6da24b7b1be489302dcd547f4aabf5b820778605cbb4ef741d",
+      "zh": "建立竞争对手档案"
+    },
+    "win-loss-review": {
+      "id": "win-loss-review",
+      "name": "win-loss-review",
+      "desc": "Analyze recently closed opportunities to find patterns in what wins and what loses - stage of loss, common objections from transcripts, deal characteristics. Leader-focused. Use when the user asks \"win loss review\", \"why are we losing deals\", \"what's working\", or \"analyze closed opps\".",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/win-loss-review/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/win-loss-review/SKILL.md",
+      "sha256": "aa991b88dd30c489e404724e37d4cdd74141cb98718cc3c7b7bc555216ffbaed",
+      "zh": "分析赢单与丢单原因"
+    },
+    "customer-voice": {
+      "id": "customer-voice",
+      "name": "customer-voice",
+      "desc": "Surface what customers are actually saying - direct attributed quotes on a topic across call transcripts and email, across your accounts. Use when the user asks \"what are customers saying about [topic]\", \"pull quotes on [objection/feature/competitor]\", \"voice of customer on [X]\", or \"what's coming up in calls\".",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/customer-voice/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/customer-voice/SKILL.md",
+      "sha256": "00c1d855da79a696a18f315a7500364f70d37ac1fcc70496433ba95f2e02d48b",
+      "zh": "汇总客户原声与趋势"
+    },
+    "analyze-feature-requests": {
+      "id": "analyze-feature-requests",
+      "name": "analyze-feature-requests",
+      "desc": "Analyze and prioritize a list of feature requests by theme, strategic alignment, impact, effort, and risk. Use when reviewing customer feature requests, triaging a backlog, or making prioritization decisions.",
+      "path": "references/sources/pm-skills/pm-product-discovery/skills/analyze-feature-requests/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-discovery/skills/analyze-feature-requests/SKILL.md",
+      "sha256": "7615db7687a668a99e015664295f849bfab696a8dd7b3c02b0200a512c6ad3c2",
+      "zh": "整理并归类功能请求"
+    },
+    "metrics-review": {
+      "id": "metrics-review",
+      "name": "metrics-review",
+      "desc": "Review and analyze product metrics with trend analysis and actionable insights. Use when running a weekly, monthly, or quarterly metrics review, investigating a sudden spike or drop, comparing performance against targets, or turning raw numbers into a scorecard with recommended actions.",
+      "path": "references/sources/knowledge-work-plugins/product-management/skills/metrics-review/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/product-management/skills/metrics-review/SKILL.md",
+      "sha256": "e92f364b668074c72b36fd0f69a6adef2ead66640b2c17dc824c043fb613d278",
+      "zh": "审查产品指标变化"
+    },
+    "review-contract": {
+      "id": "review-contract",
+      "name": "review-contract",
+      "desc": "Review a contract against your organization's negotiation playbook — flag deviations, generate redlines, provide business impact analysis. Use when reviewing vendor or customer agreements, when you need clause-by-clause analysis against standard positions, or when preparing a negotiation strategy with prioritized redlines and fallback positions.",
+      "path": "references/sources/knowledge-work-plugins/legal/skills/review-contract/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/legal/skills/review-contract/SKILL.md",
+      "sha256": "3a6413475f51adedbff130f4d5aabbeeacfb2abd323e0338bc91c21937fbfb76",
+      "zh": "审阅合同条款与偏差"
+    },
+    "triage-nda": {
+      "id": "triage-nda",
+      "name": "triage-nda",
+      "desc": "Rapidly triage an incoming NDA and classify it as GREEN (standard approval), YELLOW (counsel review), or RED (full legal review). Use when a new NDA arrives from sales or business development, when screening for embedded non-solicits, non-competes, or missing carveouts, or when deciding whether an NDA can be signed under standard delegation.",
+      "path": "references/sources/knowledge-work-plugins/legal/skills/triage-nda/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/legal/skills/triage-nda/SKILL.md",
+      "sha256": "767a8f6759268e003ee882af8dfb56579aca2121b9dc49a2c65c4e77de93f768",
+      "zh": "筛查保密协议的风险条款"
+    },
+    "draft-nda": {
+      "id": "draft-nda",
+      "name": "draft-nda",
+      "desc": "Draft a detailed Non-Disclosure Agreement between two parties covering information types, jurisdiction, and clauses needing legal review. Use when creating confidentiality agreements or preparing an NDA for a partnership.",
+      "path": "references/sources/pm-skills/pm-toolkit/skills/draft-nda/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-toolkit/skills/draft-nda/SKILL.md",
+      "sha256": "e37a613bae8038220aac1e45f73596a419920015abe28d4a012d339a0e018247",
+      "zh": "起草保密协议"
+    },
+    "compliance-check": {
+      "id": "compliance-check",
+      "name": "compliance-check",
+      "desc": "Run a compliance check on a proposed action, product feature, or business initiative, surfacing applicable regulations, required approvals, and risk areas. Use when launching a feature that touches personal data, when marketing or product proposes something with regulatory implications, or when you need to know which approvals and jurisdictional requirements apply before proceeding.",
+      "path": "references/sources/knowledge-work-plugins/legal/skills/compliance-check/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/legal/skills/compliance-check/SKILL.md",
+      "sha256": "8dff8ebe7eda9ad5e38f3faf1016a7fc1eeba65bcdb7f5ae45ea507824bbc1c2",
+      "zh": "核对适用的合规义务"
+    },
+    "legal-response": {
+      "id": "legal-response",
+      "name": "legal-response",
+      "desc": "Generate a response to a common legal inquiry using configured templates, with built-in escalation checks for situations that shouldn't use a templated reply. Use when responding to data subject requests, litigation hold notices, vendor legal questions, NDA requests from business teams, or subpoenas.",
+      "path": "references/sources/knowledge-work-plugins/legal/skills/legal-response/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/legal/skills/legal-response/SKILL.md",
+      "sha256": "b3a0585ee00a53ccb159fbf5b7dd4d4b45c39e5e65cc8f4f39cbb134fef493db",
+      "zh": "拟定法律询问回复"
+    },
+    "vendor-check": {
+      "id": "vendor-check",
+      "name": "vendor-check",
+      "desc": "Check the status of existing agreements with a vendor across all connected systems — CLM, CRM, email, and document storage — with gap analysis and upcoming deadlines. Use when onboarding or renewing a vendor, when you need a consolidated view of what's signed and what's missing (MSA, DPA, SOW), or when checking for approaching expirations and surviving obligations.",
+      "path": "references/sources/knowledge-work-plugins/legal/skills/vendor-check/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/legal/skills/vendor-check/SKILL.md",
+      "sha256": "38be57a5e9e959874d2cb78e8493211664bc452e6225cb5bdbb8b12e6f444d2e",
+      "zh": "检查供应商的法律事项"
+    },
+    "privacy-policy": {
+      "id": "privacy-policy",
+      "name": "privacy-policy",
+      "desc": "Draft a detailed privacy policy covering data types, jurisdiction, GDPR and compliance considerations, and clauses needing legal review. Use when creating a privacy policy, updating data protection documentation, or preparing for compliance.",
+      "path": "references/sources/pm-skills/pm-toolkit/skills/privacy-policy/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-toolkit/skills/privacy-policy/SKILL.md",
+      "sha256": "4388e746dbde28b3eb04bbd88f8a8fe526545fce68a6e5a058d2f70ecadf364f",
+      "zh": "起草隐私政策"
+    },
+    "compliance-tracking": {
+      "id": "compliance-tracking",
+      "name": "compliance-tracking",
+      "desc": "Track compliance requirements and audit readiness. Trigger with \"compliance\", \"audit prep\", \"SOC 2\", \"ISO 27001\", \"GDPR\", \"regulatory requirement\", or when the user needs help tracking, preparing for, or documenting compliance activities.",
+      "path": "references/sources/knowledge-work-plugins/operations/skills/compliance-tracking/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/operations/skills/compliance-tracking/SKILL.md",
+      "sha256": "644d393abdfddc8c37f7a7804f601e7bbd476e95571e6dcb4d916e478ba8ebd5",
+      "zh": "跟踪合规要求和整改进度"
+    },
+    "cash-flow-snapshot": {
+      "id": "cash-flow-snapshot",
+      "name": "cash-flow-snapshot",
+      "desc": "Reads AR/AP, historical cash timing, and known fixed costs from the ledger (MYOB, NetSuite, QuickBooks, Xero, or Zoho Books) or from PayPal, Square, or Stripe — or a CSV upload — and produces a 30/60/90-day cash flow forecast with percentage-variance confidence bands and named risk flags. Delivers a chat summary and a downloadable XLSX. Use when the user asks \"forecast my cash flow,\" \"will I make payroll,\" mentions \"runway,\" or says \"cash crunch.\" Falls back to CSV upload when no connector is live.",
+      "path": "references/sources/knowledge-work-plugins/small-business/skills/cash-flow-snapshot/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/small-business/skills/cash-flow-snapshot/SKILL.md",
+      "sha256": "1e5584378c5817981899bfa81296d8a9c2a7e4381a2f1deed616194e51944fff",
+      "zh": "整理现金头寸与短期缺口"
+    },
+    "reconciliation": {
+      "id": "reconciliation",
+      "name": "reconciliation",
+      "desc": "Reconcile accounts by comparing GL balances to subledgers, bank statements, or third-party data. Use when performing bank reconciliations, GL-to-subledger recs, intercompany reconciliations, or identifying and categorizing reconciling items.",
+      "path": "references/sources/knowledge-work-plugins/finance/skills/reconciliation/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/finance/skills/reconciliation/SKILL.md",
+      "sha256": "aa17e90539f4d4d84130c910c7f527236bfaa71977c4c03493c8e8e515ddeea6",
+      "zh": "对账并查明差异"
+    },
+    "journal-entry-prep": {
+      "id": "journal-entry-prep",
+      "name": "journal-entry-prep",
+      "desc": "Prepare journal entries with proper debits, credits, and supporting documentation for month-end close. Use when booking accruals, prepaid amortization, fixed asset depreciation, payroll entries, revenue recognition, or any manual journal entry.",
+      "path": "references/sources/knowledge-work-plugins/finance/skills/journal-entry-prep/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/finance/skills/journal-entry-prep/SKILL.md",
+      "sha256": "122715fb18246c2f04d31a5f7c07584ecbfc5c0b46ee09b4c0f4557767d7351e",
+      "zh": "准备有凭证支持的会计分录"
+    },
+    "close-management": {
+      "id": "close-management",
+      "name": "close-management",
+      "desc": "Manage the month-end close process with task sequencing, dependencies, and status tracking. Use when planning the close calendar, tracking close progress, identifying blockers, or sequencing close activities by day.",
+      "path": "references/sources/knowledge-work-plugins/finance/skills/close-management/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/finance/skills/close-management/SKILL.md",
+      "sha256": "6c2df93bcd15eddf65017445fa44f3eb0b16a755711a5e0602d73ca595e73732",
+      "zh": "安排财务关账工作"
+    },
+    "financial-statements": {
+      "id": "financial-statements",
+      "name": "financial-statements",
+      "desc": "Generate financial statements (income statement, balance sheet, cash flow) with period-over-period comparison and variance analysis. Use when preparing a monthly or quarterly P&L, closing the books and need to flag material variances, comparing actuals to budget, building a financial summary for leadership review, or looking up GAAP presentation requirements and period-end adjustments.",
+      "path": "references/sources/knowledge-work-plugins/finance/skills/financial-statements/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/finance/skills/financial-statements/SKILL.md",
+      "sha256": "1a9ba1cc85495eef32fa250b8a4c05e4854430af574a290b855f919dbb557dfc",
+      "zh": "编制和分析财务报表"
+    },
+    "variance-analysis": {
+      "id": "variance-analysis",
+      "name": "variance-analysis",
+      "desc": "Decompose financial variances into drivers with narrative explanations and waterfall analysis. Use when analyzing budget vs. actual, period-over-period changes, revenue or expense variances, or preparing variance commentary for leadership.",
+      "path": "references/sources/knowledge-work-plugins/finance/skills/variance-analysis/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/finance/skills/variance-analysis/SKILL.md",
+      "sha256": "467db7de3fb118550d013409254e2d4a9f87385a661e154655bf3431919b0ba1",
+      "zh": "解释预算与实际差额"
+    },
+    "financial-analyst": {
+      "id": "financial-analyst",
+      "name": "financial-analyst",
+      "desc": "Analyze financial statements, value a company with a DCF, explain budget variance, build rolling forecasts. Use whenever the user asks what a business is worth or why spend missed budget.",
+      "path": "references/sources/claude-skills/finance/skills/financial-analyst/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/finance/skills/financial-analyst/SKILL.md",
+      "sha256": "cf71815e44247f834605fa745d21b79a468f40449ba6c4602285f347d0d36f04",
+      "zh": "分析财务比率与情景"
+    },
+    "commercial-forecaster": {
+      "id": "commercial-forecaster",
+      "name": "commercial-forecaster",
+      "desc": "Use when building a bookings, ARR, pipeline or NRR forecast, or a commit, best-case and pipeline board number. Forecasts with bookings_forecaster.py, projects cohorts with cohort_arr_projector.py and scores stage confidence with funnel_confidence_scorer.py, showing every conversion assumption.",
+      "path": "references/sources/claude-skills/commercial/skills/commercial-forecaster/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/commercial/skills/commercial-forecaster/SKILL.md",
+      "sha256": "7f5c6d47a1eaf79e578f280b8242ec87ef1c6bb8d20bef0caef9dcc7ff1f4b94",
+      "zh": "预测商业收入与交付结果"
+    },
+    "risk-assessment": {
+      "id": "risk-assessment",
+      "name": "risk-assessment",
+      "desc": "Identify, assess, and mitigate operational risks. Trigger with \"what are the risks\", \"risk assessment\", \"risk register\", \"what could go wrong\", or when the user is evaluating risks associated with a project, vendor, process, or decision.",
+      "path": "references/sources/knowledge-work-plugins/operations/skills/risk-assessment/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/operations/skills/risk-assessment/SKILL.md",
+      "sha256": "82e29810a762c396a56f92bbd5c5afd252f7a07c6be69a246c28f7b82c4086d9",
+      "zh": "记录风险、影响和缓解措施"
+    },
+    "vendor-review": {
+      "id": "vendor-review",
+      "name": "vendor-review",
+      "desc": "Evaluate a vendor — cost analysis, risk assessment, and recommendation. Use when reviewing a new vendor proposal, deciding whether to renew or replace a contract, comparing two vendors side-by-side, or building a TCO breakdown and negotiation points before procurement sign-off.",
+      "path": "references/sources/knowledge-work-plugins/operations/skills/vendor-review/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/operations/skills/vendor-review/SKILL.md",
+      "sha256": "c2a959a7ed068e34a83984cf223754062e6819deb0ba1ca33eb747b4cc808d5e",
+      "zh": "评价供应商履约情况"
+    },
+    "capacity-plan": {
+      "id": "capacity-plan",
+      "name": "capacity-plan",
+      "desc": "Plan resource capacity — workload analysis and utilization forecasting. Use when heading into quarterly planning, the team feels overallocated and you need the numbers, deciding whether to hire or deprioritize, or stress-testing whether upcoming projects fit the people you have.",
+      "path": "references/sources/knowledge-work-plugins/operations/skills/capacity-plan/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/operations/skills/capacity-plan/SKILL.md",
+      "sha256": "3b8f1379471eae19e5be26c750681ad0c6054f4c8cdbf79c94309fcf46957ea8",
+      "zh": "匹配工作量与可用产能"
+    },
+    "process-optimization": {
+      "id": "process-optimization",
+      "name": "process-optimization",
+      "desc": "Analyze and improve business processes. Trigger with \"this process is slow\", \"how can we improve\", \"streamline this workflow\", \"too many steps\", \"bottleneck\", or when the user describes an inefficient process they want to fix.",
+      "path": "references/sources/knowledge-work-plugins/operations/skills/process-optimization/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/operations/skills/process-optimization/SKILL.md",
+      "sha256": "14099838fdbfca24057e934fc22ed17f94629c5e9c9cec470f32e3063d0575f9",
+      "zh": "分析流程瓶颈和改进机会"
+    },
+    "procurement-optimizer": {
+      "id": "procurement-optimizer",
+      "name": "procurement-optimizer",
+      "desc": "Cut spend on software and suppliers: SaaS audit, category spend review, slow purchasing cycles, supplier consolidation. Use whenever the user asks which tools or vendors to cut, where money goes, or why buying takes so long.",
+      "path": "references/sources/claude-skills/business-operations/skills/procurement-optimizer/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/business-operations/skills/procurement-optimizer/SKILL.md",
+      "sha256": "fd528725f6c20ba2e5428358facd8caa3e64eb972997cdbc068e6aa5754ed401",
+      "zh": "分析采购成本与议价空间"
+    },
+    "commercial-policy": {
+      "id": "commercial-policy",
+      "name": "commercial-policy",
+      "desc": "Use when writing or revising discount rules: discount matrix, approver thresholds, exception flows and the deal framework sales works under. Builds the matrix with discount_matrix_builder.py, routes exceptions with exception_router.py and checks the policy with policy_linter.py.",
+      "path": "references/sources/claude-skills/commercial/skills/commercial-policy/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/commercial/skills/commercial-policy/SKILL.md",
+      "sha256": "30748ee0b904901872d139d38677fff1476101324b826348e8b10500283d7ca4",
+      "zh": "制定折扣、价格与授权规则"
+    },
+    "public-relations": {
+      "id": "public-relations",
+      "name": "public-relations",
+      "desc": "When the user wants press and media coverage, or asks what to say to a reporter, whether a story is newsworthy, or how to handle a crisis: pitches, press releases, media lists, HARO, op-eds, podcast guest prep, newsjacking (public relations, not pull requests). For directories, see directory-submissions. For launches, see launch. For cold outreach to prospects, see cold-email.",
+      "path": "references/sources/marketingskills/skills/public-relations/SKILL.md",
+      "repo": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/public-relations/SKILL.md",
+      "sha256": "72bfaf639021d84635c60495931b8872fd25925ea407e3b398ff7d00dd5ee3ae",
+      "zh": "制定媒体沟通策略"
+    },
+    "internal-comms": {
+      "id": "internal-comms",
+      "name": "internal-comms",
+      "desc": "Use when announcing a reorg, tool rollout, policy change, leadership change, layoff or acquisition internally. Builds the announcement with change_announcement_builder.py and sequences it with comms_calendar_builder.py.",
+      "path": "references/sources/claude-skills/business-operations/skills/internal-comms/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/business-operations/skills/internal-comms/SKILL.md",
+      "sha256": "24df7c5393d61d36a7baf122a6d543063951245abe25eced11f7ca6740f2e40e",
+      "zh": "起草内部变更与事件沟通"
+    },
+    "status-report": {
+      "id": "status-report",
+      "name": "status-report",
+      "desc": "Generate a status report with KPIs, risks, and action items. Use when writing a weekly or monthly update for leadership, summarizing project health with green/yellow/red status, surfacing risks and decisions that need stakeholder attention, or turning a pile of project tracker activity into a readable narrative.",
+      "path": "references/sources/knowledge-work-plugins/operations/skills/status-report/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/operations/skills/status-report/SKILL.md",
+      "sha256": "8c3a21075294a5c5b7a1a7930613e53f0afbdbc12cf9e05d4bd08e6950c0a0d9",
+      "zh": "汇报进度、风险和待决事项"
+    },
+    "audit-support": {
+      "id": "audit-support",
+      "name": "audit-support",
+      "desc": "Support SOX 404 compliance with control testing methodology, sample selection, and documentation standards. Use when generating testing workpapers, selecting audit samples, classifying control deficiencies, or preparing for internal or external audits.",
+      "path": "references/sources/knowledge-work-plugins/finance/skills/audit-support/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/finance/skills/audit-support/SKILL.md",
+      "sha256": "6e53c9529c42bb92c11d00a58af5119f7383903d9cb3b911625089fec2ff4784",
+      "zh": "准备抽样证据和审计底稿"
+    },
+    "sox-testing": {
+      "id": "sox-testing",
+      "name": "sox-testing",
+      "desc": "Generate SOX sample selections, testing workpapers, and control assessments. Use when planning quarterly or annual SOX 404 testing, pulling a sample for a control (revenue, P2P, ITGC, close), building a testing workpaper template, or evaluating and classifying a control deficiency.",
+      "path": "references/sources/knowledge-work-plugins/finance/skills/sox-testing/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/finance/skills/sox-testing/SKILL.md",
+      "sha256": "5e5939a070a25d9696b27aaec6c20e64084e6f58637994b2f7ec92744074ea23",
+      "zh": "测试财务报告内部控制"
+    },
+    "iso27001-audit-prep": {
+      "id": "iso27001-audit-prep",
+      "name": "iso27001-audit-prep",
+      "desc": "Use for /compliance-os:iso27001-audit-prep, or before an ISO 27001 internal, surveillance or stage 1 audit.",
+      "path": "references/sources/claude-skills/compliance-os/skills/iso27001-audit-prep/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/compliance-os/skills/iso27001-audit-prep/SKILL.md",
+      "sha256": "c2d682d578287a32f966ae0f1d6b4fa1a03f08d72ad392955504e770f15e6eff",
+      "zh": "准备信息安全管理体系审计证据"
+    },
+    "validate-data": {
+      "id": "validate-data",
+      "name": "validate-data",
+      "desc": "QA an analysis before sharing -- methodology, accuracy, and bias checks. Use when reviewing an analysis before a stakeholder presentation, spot-checking calculations and aggregation logic, verifying a SQL query's results look right, or assessing whether conclusions are actually supported by the data.",
+      "path": "references/sources/knowledge-work-plugins/data/skills/validate-data/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/data/skills/validate-data/SKILL.md",
+      "sha256": "1e424822043480375b80aef9416227b1c8083af749ca536568716265f79ca54b",
+      "zh": "核对分析数据与口径"
+    },
+    "gdpr-audit-prep": {
+      "id": "gdpr-audit-prep",
+      "name": "gdpr-audit-prep",
+      "desc": "Use for /compliance-os:gdpr-audit-prep, or before a GDPR review, post-breach audit or DPA investigation.",
+      "path": "references/sources/claude-skills/compliance-os/skills/gdpr-audit-prep/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/compliance-os/skills/gdpr-audit-prep/SKILL.md",
+      "sha256": "b061644c3cd94c4b18ea02b68749212f8e751d18b1745f1a29e732ff562d9de3",
+      "zh": "准备个人数据保护审查材料"
+    },
+    "access-lifecycle": {
+      "id": "access-lifecycle",
+      "name": "access-lifecycle",
+      "desc": "Use when preparing or running a user access review, checking that leavers lost their access, finding orphaned or ownerless service accounts, answering an auditor's access-control request for SOC 2, ISO 27001, PCI DSS, HIPAA or NIST 800-53, or checking whether a finished review campaign will hold up. Diffs the HR roster against account exports, tests the campaign for coverage, self-review, unremoved revokes and rubber-stamping, and maps every exception to the controls it breaks.",
+      "path": "references/sources/claude-skills/ra-qm-team/skills/access-lifecycle/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/ra-qm-team/skills/access-lifecycle/SKILL.md",
+      "sha256": "2985de1165f8cacc829d0cf4bb0e5589095e74f1cd34fab38b4eda08e685223f",
+      "zh": "对照人员与账户记录核查权限回收"
+    },
+    "information-security-manager-iso27001": {
+      "id": "information-security-manager-iso27001",
+      "name": "information-security-manager-iso27001",
+      "desc": "Use when designing or running an ISO 27001 ISMS in HealthTech or MedTech: risk assessment, control implementation, certification or security incidents. Assesses risk with risk_assessment.py and checks controls with compliance_checker.py.",
+      "path": "references/sources/claude-skills/ra-qm-team/skills/information-security-manager-iso27001/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/ra-qm-team/skills/information-security-manager-iso27001/SKILL.md",
+      "sha256": "bb2e895984487ca5a427c4a1541b60b4839a479445f14a970f4f99e1e190860a",
+      "zh": "建立信息安全管理体系和责任分工"
+    },
+    "metrics-dashboard": {
+      "id": "metrics-dashboard",
+      "name": "metrics-dashboard",
+      "desc": "Define and design a product metrics dashboard with key metrics, data sources, visualization types, and alert thresholds. Use when creating a metrics dashboard, defining KPIs, setting up product analytics, or building a data monitoring plan.",
+      "path": "references/sources/pm-skills/pm-product-discovery/skills/metrics-dashboard/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-product-discovery/skills/metrics-dashboard/SKILL.md",
+      "sha256": "fa74abf49be9f034ae43110528028402e5e63809540302b95567018d478ef4e9",
+      "zh": "定义指标看板的口径与结构"
+    },
+    "explore-data": {
+      "id": "explore-data",
+      "name": "explore-data",
+      "desc": "Profile and explore a dataset to understand its shape, quality, and patterns. Use when encountering a new table or file, checking null rates and column distributions, spotting data quality issues like duplicates or suspicious values, or deciding which dimensions and metrics to analyze.",
+      "path": "references/sources/knowledge-work-plugins/data/skills/explore-data/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/data/skills/explore-data/SKILL.md",
+      "sha256": "af7590fa616360259da712b5ede5f79b817beb854c47a465f95774354988e8a2",
+      "zh": "探索数据分布与异常"
+    },
+    "statistical-analysis": {
+      "id": "statistical-analysis",
+      "name": "statistical-analysis",
+      "desc": "Apply statistical methods including descriptive stats, trend analysis, outlier detection, and hypothesis testing. Use when analyzing distributions, testing for significance, detecting anomalies, computing correlations, or interpreting statistical results.",
+      "path": "references/sources/knowledge-work-plugins/data/skills/statistical-analysis/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/data/skills/statistical-analysis/SKILL.md",
+      "sha256": "91a15cfc144efffcd622b09827362a73993a3ff30e3a78114801832477c9f8a0",
+      "zh": "选择统计方法并解释结果"
+    },
+    "create-viz": {
+      "id": "create-viz",
+      "name": "create-viz",
+      "desc": "Create publication-quality visualizations with Python. Use when turning query results or a DataFrame into a chart, selecting the right chart type for a trend or comparison, generating a plot for a report or presentation, or needing an interactive chart with hover and zoom.",
+      "path": "references/sources/knowledge-work-plugins/data/skills/create-viz/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/data/skills/create-viz/SKILL.md",
+      "sha256": "3b13a9c2c9d2b1d36f9c323d952d93f578216f2094bc80d4be6fd4ccbfe9b77d",
+      "zh": "为分析结果选择图形"
+    },
+    "build-dashboard": {
+      "id": "build-dashboard",
+      "name": "build-dashboard",
+      "desc": "Build an interactive HTML dashboard with charts, filters, and tables. Use when creating an executive overview with KPI cards, turning query results into a shareable self-contained report, building a team monitoring snapshot, or needing multiple charts with filters in one browser-openable file.",
+      "path": "references/sources/knowledge-work-plugins/data/skills/build-dashboard/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/data/skills/build-dashboard/SKILL.md",
+      "sha256": "6f23faa0b266820a23096f76df9d83e6b67597af4fc8c3306b4eba7e9f409f99",
+      "zh": "构建可交互的数据看板"
+    },
+    "sql-queries": {
+      "id": "sql-queries",
+      "name": "sql-queries",
+      "desc": "Generate SQL queries from natural language descriptions. Supports BigQuery, PostgreSQL, MySQL, and other dialects. Reads database schemas from uploaded diagrams or documentation. Use when writing SQL, building data reports, exploring databases, or translating business questions into queries.",
+      "path": "references/sources/pm-skills/pm-data-analytics/skills/sql-queries/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-data-analytics/skills/sql-queries/SKILL.md",
+      "sha256": "18da062d5171607dcaa31eb277be420560e061bdcb0c960201e86c7067e2e59a",
+      "zh": "按业务问题编写查询"
+    },
+    "org-planning": {
+      "id": "org-planning",
+      "name": "org-planning",
+      "desc": "Headcount planning, org design, and team structure optimization. Trigger with \"org planning\", \"headcount plan\", \"team structure\", \"reorg\", \"who should we hire next\", or when the user is thinking about team size, reporting structure, or organizational design.",
+      "path": "references/sources/knowledge-work-plugins/human-resources/skills/org-planning/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/human-resources/skills/org-planning/SKILL.md",
+      "sha256": "b3c6e33d251487225485c7fe455586f0cd490b282d7e41054273fa60820891ea",
+      "zh": "规划组织结构与人力需求"
+    },
+    "comp-analysis": {
+      "id": "comp-analysis",
+      "name": "comp-analysis",
+      "desc": "Analyze compensation — benchmarking, band placement, and equity modeling. Trigger with \"what should we pay a [role]\", \"is this offer competitive\", \"model this equity grant\", or when uploading comp data to find outliers and retention risks.",
+      "path": "references/sources/knowledge-work-plugins/human-resources/skills/comp-analysis/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/human-resources/skills/comp-analysis/SKILL.md",
+      "sha256": "1af196cd1c38cdb96565eadebcf13fa25e979469b3e06f4791e18baa7f2534a6",
+      "zh": "评估岗位薪酬区间"
+    },
+    "recruiting-pipeline": {
+      "id": "recruiting-pipeline",
+      "name": "recruiting-pipeline",
+      "desc": "Track and manage recruiting pipeline stages. Trigger with \"recruiting update\", \"candidate pipeline\", \"how many candidates\", \"hiring status\", or when the user discusses sourcing, screening, interviewing, or extending offers.",
+      "path": "references/sources/knowledge-work-plugins/human-resources/skills/recruiting-pipeline/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/human-resources/skills/recruiting-pipeline/SKILL.md",
+      "sha256": "a00b442f701faa6eb65b8ecc8fcf375d5a33ec827b987ba8b04edaef0e90b92f",
+      "zh": "跟踪招聘漏斗"
+    },
+    "interview-prep": {
+      "id": "interview-prep",
+      "name": "interview-prep",
+      "desc": "Create structured interview plans with competency-based questions and scorecards. Trigger with \"interview plan for\", \"interview questions for\", \"how should we interview\", \"scorecard for\", or when the user is preparing to interview candidates.",
+      "path": "references/sources/knowledge-work-plugins/human-resources/skills/interview-prep/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/human-resources/skills/interview-prep/SKILL.md",
+      "sha256": "c687311babdeccf086aa5f6d86dcbfc3a9d1b8bb7124f072450ffa4315d98c4c",
+      "zh": "设计岗位面试题与评分标准"
+    },
+    "draft-offer": {
+      "id": "draft-offer",
+      "name": "draft-offer",
+      "desc": "Draft an offer letter with comp details and terms. Use when a candidate is ready for an offer, assembling a total comp package (base, equity, signing bonus), writing the offer letter text itself, or prepping negotiation guidance for the hiring manager.",
+      "path": "references/sources/knowledge-work-plugins/human-resources/skills/draft-offer/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/human-resources/skills/draft-offer/SKILL.md",
+      "sha256": "b50f677f4c8fb769b9cd0be51cd250e0e21a4530d579d5f400b7d7b1b1a63ea9",
+      "zh": "起草聘用条件"
+    },
+    "onboarding-HR": {
+      "id": "onboarding-HR",
+      "name": "onboarding",
+      "desc": "Generate an onboarding checklist and first-week plan for a new hire. Use when someone has a start date coming up, building the pre-start task list (accounts, equipment, buddy), scheduling Day 1 and Week 1, or setting 30/60/90-day goals for a new team member.",
+      "path": "references/sources/knowledge-work-plugins/human-resources/skills/onboarding/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/human-resources/skills/onboarding/SKILL.md",
+      "sha256": "c9210cdd00f8c2998a01c6d1310a8742aafa82a5861fb7c1c18686b72a56da97",
+      "zh": "制定员工入职交接计划"
+    },
+    "performance-review": {
+      "id": "performance-review",
+      "name": "performance-review",
+      "desc": "Structure a performance review with self-assessment, manager template, and calibration prep. Use when review season kicks off and you need a self-assessment template, writing a manager review for a direct report, prepping rating distributions and promotion cases for calibration, or turning vague feedback into specific behavioral examples.",
+      "path": "references/sources/knowledge-work-plugins/human-resources/skills/performance-review/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/human-resources/skills/performance-review/SKILL.md",
+      "sha256": "a34e3f49e7c8619f07fd218cb2b6a6d57572dd7a0a78c72977dcd1739578e588",
+      "zh": "整理绩效事实与评估反馈"
+    },
+    "partnerships-architect": {
+      "id": "partnerships-architect",
+      "name": "partnerships-architect",
+      "desc": "Use when deciding whether to sign a partner, at which tier (referral, reseller, OEM, SI, alliance), with what joint GTM and revshare. Runs partner_tier_classifier.py, revshare_modeler.py and joint_gtm_planner.py.",
+      "path": "references/sources/claude-skills/commercial/skills/partnerships-architect/SKILL.md",
+      "repo": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/f8593c4941210a621a6629ce1da9e07897976d5f/commercial/skills/partnerships-architect/SKILL.md",
+      "sha256": "70c85d49d9708267929b61f8b2412b562178426d29e51732eb27d1d8ec7dd6f9",
+      "zh": "设计合作伙伴模式和激励"
+    },
+    "proposal-builder": {
+      "id": "proposal-builder",
+      "name": "proposal-builder",
+      "desc": "Turns whatever came out of a discovery conversation — a call transcript, a voice memo, jobsite photos, an RFP document, a set of drawings, or scrappy notes — into a branded, costed proposal, estimate, or statement of work built on the owner's own templates and historical pricing. Routes it for signature and triggers the deposit invoice once it's accepted. Works entirely from uploaded files when no connector is available, producing DOCX and PDF the owner can send themselves. Use this whenever a quote, bid, estimate, proposal, or SOW is the deliverable — including phrasings like \"write this up for them,\" \"put together a quote,\" \"I need to bid this job,\" \"turn my notes into a proposal,\" \"respond to this RFP,\" or \"price this out.\" Reach for it when the owner describes a job they just looked at, even without saying the word quote.",
+      "path": "references/sources/knowledge-work-plugins/small-business/skills/proposal-builder/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/small-business/skills/proposal-builder/SKILL.md",
+      "sha256": "e558016c080898debf1e4e944826a562861c724144101cbc9ab6b99c0d362d0b",
+      "zh": "整理客户提案"
+    },
+    "account-plan": {
+      "id": "account-plan",
+      "name": "account-plan",
+      "desc": "Build or refresh a strategic account plan - current state, goals, stakeholder coverage, opportunity map, risks, and the action plan - written to a doc and key fields synced to the CRM. Use when the user says \"build an account plan for [account]\", \"update the [account] plan\", \"account planning for [account]\", or before a planning cycle / QBR.",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/account-plan/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/account-plan/SKILL.md",
+      "sha256": "b9facd0dfe322873e43757167b93bf3a312f0d0629c4cb9afa031912b64f5162",
+      "zh": "制定重点客户经营计划"
+    },
+    "deal-slip-scenario": {
+      "id": "deal-slip-scenario",
+      "name": "deal-slip-scenario",
+      "desc": "Model what happens to your number if a deal slips, shrinks, or dies - quota impact, coverage ratio change, and the substitute pipeline needed to stay on plan. Use when the user asks \"what if [deal] slips\", \"what happens if [account] pushes to next quarter\", \"can I still hit my number without [deal]\", or \"model losing [deal]\".",
+      "path": "references/sources/knowledge-work-plugins/sales/skills/deal-slip-scenario/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/sales/skills/deal-slip-scenario/SKILL.md",
+      "sha256": "8860854b52d78db8fb76f4f019b1d322a321ab232302ae9b7d9007d3e0db5d23",
+      "zh": "模拟延迟成交对预测的影响"
+    },
+    "stakeholder-update": {
+      "id": "stakeholder-update",
+      "name": "stakeholder-update",
+      "desc": "Generate a stakeholder update tailored to audience and cadence. Use when writing a weekly or monthly status for leadership, announcing a launch, escalating a risk or blocker, or translating the same progress into exec-brief, engineering-detail, or customer-facing versions.",
+      "path": "references/sources/knowledge-work-plugins/product-management/skills/stakeholder-update/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/product-management/skills/stakeholder-update/SKILL.md",
+      "sha256": "bcdb8ee95dc34d025dcc3d98e7435c4dca45930581b3b7a8707f8770dd364e79",
+      "zh": "编写面向利益相关方的进展说明"
+    },
+    "summarize-meeting": {
+      "id": "summarize-meeting",
+      "name": "summarize-meeting",
+      "desc": "Summarize a meeting transcript into structured notes with date, participants, topic, key decisions, summary points, and action items. Use when processing meeting recordings, creating meeting notes, writing meeting minutes, or recapping discussions.",
+      "path": "references/sources/pm-skills/pm-execution/skills/summarize-meeting/SKILL.md",
+      "repo": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills/blob/9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef/pm-execution/skills/summarize-meeting/SKILL.md",
+      "sha256": "4deabdd7f99c692ee800a80a4eaf6a688fb8873cdaaaea44b7f472499205f8e7",
+      "zh": "提取会议决定、负责人和时限"
+    },
+    "business-pulse": {
+      "id": "business-pulse",
+      "name": "business-pulse",
+      "desc": "Produces a one-page cross-functional business snapshot for SMB owners — cash position (the ledger: MYOB, NetSuite, QuickBooks, Xero, or Zoho Books), sales trend (PayPal/Square/Stripe), pipeline movement (HubSpot), this week's commitments (Calendar), urgent watch-list items (Gmail or M365, Slack), and the single most important thing needing attention today. Proactively tries every available connector and gracefully scopes to whatever is connected — one connector gives a partial pulse; the full stack gives the full picture. Trigger when the user asks how the business is doing, wants a snapshot, a daily brief, a Friday recap, or says anything like \"what am I missing\" or \"catch me up on the business.\" A start-of-week briefing routes to /monday-brief, which runs this skill as its first link.",
+      "path": "references/sources/knowledge-work-plugins/small-business/skills/business-pulse/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/small-business/skills/business-pulse/SKILL.md",
+      "sha256": "289ac6813b4b11211411a6a323a2baf448c24c662c833db545402b79f2dd8a06",
+      "zh": "汇总小企业经营信号"
+    },
+    "invoice-chase": {
+      "id": "invoice-chase",
+      "name": "invoice-chase",
+      "desc": "Drafts overdue-invoice reminder emails from the ledger (MYOB, NetSuite, QuickBooks, Xero, or Zoho Books) plus PayPal, Stripe, and Airwallex data, matched to each customer's payment history and tone (gentle for good customers, firm for repeat late payers). Sends via PayPal with owner approval; everything else queues as a mail draft, with the Airwallex hosted pay link included where one exists. Use when the user asks \"who owes me money,\" mentions overdue invoices, or wants to follow up on unpaid invoices.",
+      "path": "references/sources/knowledge-work-plugins/small-business/skills/invoice-chase/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/small-business/skills/invoice-chase/SKILL.md",
+      "sha256": "eb88e2dbbdf3dfb5e105b74886bf43a23caeddec9ea35bc36fabdf5d7c5c9619",
+      "zh": "按账龄跟进逾期发票"
+    },
+    "ap-processor": {
+      "id": "ap-processor",
+      "name": "ap-processor",
+      "desc": "Works the bill pile end to end: reads bills and vendor statements out of the AP inbox or from uploaded PDFs and phone photos, pulls out vendor, amount, due date, and line detail, codes each one to the right account and job, matches it against the purchase order and the receiving ticket, then stages the entries and a proposed payment run in QuickBooks, Xero, or NetSuite for the owner to approve in one pass. Nothing is entered and nothing is paid without an explicit yes. Reach for this whenever bills, vendor invoices, or paying people comes up — including \"what do I owe,\" \"the bills are piling up,\" \"pull the invoices out of my email and into QuickBooks,\" \"code these for me,\" \"who needs to get paid this week,\" \"did we get billed twice,\" or when the owner forwards a supplier invoice with no message at all. Use it before cash-flow-snapshot or month-end-prep so those run on real payables instead of a guess.",
+      "path": "references/sources/knowledge-work-plugins/small-business/skills/ap-processor/SKILL.md",
+      "repo": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/0e0fcacddcc892eb92a1b7873ff9d68159c47571/small-business/skills/ap-processor/SKILL.md",
+      "sha256": "a2dbac917c45a114d886a8e2d4348c04415888a2b0d51c7f2946fcd210e7736d",
+      "zh": "核对应付发票、凭证和到期日"
+    }
+  },
+  "sources": {
+    "pm-skills": {
+      "pushed": "2026-11-08T23:10:04Z",
+      "stars": 28194,
+      "url": "https://github.com/phuryn/pm-skills",
+      "commit": "9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef",
+      "license": "MIT"
+    },
+    "marketingskills": {
+      "pushed": "2026-11-20T02:15:08Z",
+      "stars": 61649,
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+      "license": "MIT"
+    },
+    "knowledge-work-plugins": {
+      "pushed": "2026-11-20T07:27:40Z",
+      "stars": 36609,
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "commit": "0e0fcacddcc892eb92a1b7873ff9d68159c47571",
+      "license": "Apache-2.0"
+    },
+    "superpowers": {
+      "pushed": "2026-11-03T23:24:58Z",
+      "stars": 322600,
+      "url": "https://github.com/obra/superpowers",
+      "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "license": "MIT"
+    },
+    "claude-skills": {
+      "pushed": "2026-11-19T07:26:37Z",
+      "stars": 30181,
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "commit": "f8593c4941210a621a6629ce1da9e07897976d5f",
+      "license": "MIT"
+    }
+  },
+  "edition": "2.0"
+}
